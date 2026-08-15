@@ -35,11 +35,17 @@ Potrzebujesz trzech rzeczy:
 
 **Claude Code.** Program, w którym działa MarketingAgent. Instalujesz go raz, jak każdą inną aplikację. Instrukcja instalacji jest w pierwszym module kursu.
 
-**Adres MarketingAgenta.** `dawlab/magent` — to wskazanie, skąd Claude Code ma pobrać agenta. Nie jest to plik do pobrania; wpisujesz ten adres w poleceniu instalacyjnym.
+**Adres MarketingAgenta.**
+
+```
+https://dawlab.github.io/magent/marketplace.json
+```
+
+Ten adres wskazuje Claude Code, skąd pobrać agenta. Nie otwierasz go w przeglądarce i niczego z niego nie ściągasz ręcznie — wklejasz go w poleceniu instalacyjnym.
 
 **Folder na dane firmy.** Zwykły folder na dysku, na przykład `Moja Firma` w Dokumentach. MarketingAgent zapisze tam wszystko, czego się o Twojej firmie dowie, oraz materiały, które przygotuje.
 
-Warto wiedzieć od razu: samego MarketingAgenta nie pobierasz ręcznie i nie rozpakowujesz. Podczas instalacji Claude Code pobiera go z podanego adresu i zapisuje we własnym katalogu. Jedyny folder, który tworzysz Ty, to ten na dane firmy.
+Nie potrzebujesz żadnych dodatkowych programów poza Claude Code. Agent pobiera się sam i zapisuje we własnym katalogu — jedyny folder, który tworzysz Ty, to ten na dane firmy.
 
 ---
 
@@ -53,25 +59,28 @@ Jeśli jeszcze go nie masz, zacznij od tego. Film w kursie prowadzi przez instal
 
 ### Krok 2. Pobierz MarketingAgenta
 
-Otwórz Terminal. To okno, w którym wydaje się polecenia, wpisując je tekstem — na macOS znajdziesz je jako „Terminal", na Windowsie jako „PowerShell".
+Otwórz Claude Code w folderze swojej firmy. Wszystko poniżej wpisujesz w oknie Claude Code — tam, gdzie normalnie piszesz do asystenta.
 
-Wpisz poniższe polecenie i naciśnij Enter:
-
-```
-claude plugin marketplace add dawlab/magent
-```
-
-Następnie drugie:
+Wklej poniższą linijkę i zatwierdź:
 
 ```
-claude plugin install magent-rdzen@magent
+/plugin marketplace add https://dawlab.github.io/magent/marketplace.json
 ```
 
-Pierwsze polecenie wskazuje, skąd pobrać MarketingAgenta. Drugie instaluje jego podstawową część.
+Następnie drugą:
+
+```
+/plugin install magent-rdzen@magent
+```
+
+Pierwsza wskazuje, skąd pobrać MarketingAgenta. Druga instaluje jego podstawową część.
+
+> Jeśli Twoja wersja Claude Code nie przyjmuje tych poleceń w oknie asystenta, wykonaj je w Terminalu, dopisując na początku słowo `claude` i pomijając ukośnik:
+> `claude plugin marketplace add https://dawlab.github.io/magent/marketplace.json`
 
 ### Krok 3. Przygotuj folder firmy
 
-Otwórz Claude Code w folderze swojej firmy i wpisz:
+W tym samym oknie wpisz:
 
 ```
 /magent-setup
@@ -148,14 +157,11 @@ Tryby przechodzą jeden w drugi. Jeśli podczas pracy zabraknie jakiegoś elemen
 
 Obszar to zestaw umiejętności w jednej dziedzinie — na przykład tworzenie treści albo obsługa social mediów. Dokładasz je pojedynczo, wtedy gdy są potrzebne.
 
-Dodanie obszaru to dwa kroki. W Terminalu:
+Dodanie obszaru to dwa polecenia w oknie Claude Code:
 
 ```
-claude plugin install magent-tresci@magent
+/plugin install magent-tresci@magent
 ```
-
-Potem w Claude Code:
-
 ```
 /tresci-start
 ```
@@ -354,18 +360,16 @@ Dwóch firm nie należy prowadzić w jednym folderze.
 
 MarketingAgent bywa rozwijany — dochodzą nowe możliwości i usprawnienia. Nowe wersje publikujemy pod tym samym adresem, z którego instalowałeś agenta. Nic nie jest instalowane na Twoim komputerze bez Twojej wiedzy.
 
-O każdej aktualizacji informujemy mailem i w kursie. Żeby ją pobrać, wpisz w Terminalu:
+O każdej aktualizacji informujemy mailem i w kursie. Żeby ją pobrać, wpisz w oknie Claude Code:
 
 ```
-claude plugin marketplace update magent
-claude plugin update magent-rdzen@magent
+/plugin marketplace update magent
+```
+```
+/plugin update magent-rdzen@magent
 ```
 
-Oraz to samo dla dodanych obszarów, na przykład:
-
-```
-claude plugin update magent-tresci@magent
-```
+Oraz to samo dla dodanych obszarów, na przykład `/plugin update magent-tresci@magent`.
 
 Następnie uruchom Claude Code ponownie. Dane Twojej firmy pozostają bez zmian — aktualizacja obejmuje wyłącznie samego agenta.
 
@@ -395,16 +399,11 @@ Post czeka na Twoją akceptację. Publikacja zawsze wymaga potwierdzenia — to 
 
 ## 18. Skrót na start
 
-W Terminalu:
+W oknie Claude Code, otwartym w folderze firmy:
 
 ```
-claude plugin marketplace add dawlab/magent
-claude plugin install magent-rdzen@magent
-```
-
-W Claude Code, w folderze firmy:
-
-```
+/plugin marketplace add https://dawlab.github.io/magent/marketplace.json
+/plugin install magent-rdzen@magent
 /magent-setup       → uruchom Claude Code ponownie
 /nauka-firmy        → profil firmy
 @głos [test]        → sprawdzenie stylu

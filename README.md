@@ -8,34 +8,27 @@ Pełna instrukcja: [INSTRUKCJA-OBSLUGI.md](INSTRUKCJA-OBSLUGI.md)
 
 ## Instalacja
 
-**Krok 1 — w terminalu** (zwykła powłoka systemu: „Terminal" na macOS, „PowerShell" na Windowsie — nie okno Claude Code):
+Wszystko wpisujesz w oknie Claude Code, otwartym w folderze Twojej firmy. Nie potrzebujesz gita, konta GitHub ani Terminala — wtyczki pobierają się jako archiwa przez HTTPS.
 
-```bash
-claude plugin marketplace add dawlab/magent
 ```
-```bash
-claude plugin install magent-rdzen@magent
+/plugin marketplace add https://dawlab.github.io/magent/marketplace.json
 ```
-
-**Krok 2 — w oknie Claude Code**, otwartym w folderze Twojej firmy:
-
+```
+/plugin install magent-rdzen@magent
+```
 ```
 /magent-setup
 ```
 
-Tworzy strukturę plików na dane firmy. Następnie uruchom Claude Code ponownie i wpisz:
+`/magent-setup` tworzy strukturę plików na dane firmy. Następnie uruchom Claude Code ponownie i wpisz `/nauka-firmy`, żeby agent poznał Twoją firmę. Od tego momentu `/start` w każdej chwili podpowie następny krok.
 
-```
-/nauka-firmy
-```
+Kolejne obszary dokładasz tak samo: `/plugin install magent-tresci@magent`, potem `/tresci-start`.
 
-Agent pozna Twoją firmę i zapisze jej profil. Od tego momentu możesz pracować — a `/start` w każdej chwili podpowie następny krok.
+> Te same polecenia działają w Terminalu — dopisz na początku `claude` i pomiń ukośnik: `claude plugin marketplace add https://dawlab.github.io/magent/marketplace.json`.
 
-Kolejne obszary dokładasz tak samo: w terminalu `claude plugin install magent-tresci@magent`, potem w Claude Code `/tresci-start`.
+**Aktualizacje:** `/plugin marketplace update magent`, potem `/plugin update magent-rdzen@magent` (oraz zainstalowane obszary) i ponowne uruchomienie Claude Code. Dane firmy pozostają nietknięte.
 
-> `claude plugin …` to polecenia terminala. `/magent-setup`, `/start`, `/tresci-start` to komendy wpisywane w oknie Claude Code.
-
-**Aktualizacje:** `claude plugin marketplace update magent`, potem `claude plugin update magent-rdzen@magent` (oraz zainstalowane obszary) i ponowne uruchomienie Claude Code. Dane firmy pozostają nietknięte.
+**Wymagania:** Claude Code w wersji 2.1.224 lub nowszej (starsze wersje nie obsługują wtyczek dystrybuowanych jako archiwa).
 
 ## Instalacja etapami
 
@@ -93,11 +86,15 @@ Instalacja i aktualizacje pluginów nie dotykają tych plików. Przy kilku firma
 ## Struktura repozytorium
 
 ```
-.claude-plugin/marketplace.json   spis pluginów
+.claude-plugin/marketplace.json   spis pluginów (źródło, instalacja lokalna)
 plugins/magent-rdzen/             rdzeń: operator, styl, komendy, szablony startowe
 plugins/magent-*/                 obszary dokładane w kursie
+docs/                             katalog dystrybucyjny (GitHub Pages): marketplace.json + paczki zip
+publikuj.py                       wydanie nowej wersji: pakuje wtyczki i generuje docs/
 CLAUDE.md                         rozdzielnia: routing i zasady
 INSTRUKCJA-OBSLUGI.md             pełna instrukcja dla użytkownika
 ```
+
+**Wydanie nowej wersji:** podnieś numer w `plugin.json` i `.claude-plugin/marketplace.json`, uruchom `python3 publikuj.py`, następnie `git add -A && git commit && git push`. Numer wersji jest sygnałem aktualizacji dla klientów — bez jego podniesienia zostaną przy dotychczasowej paczce.
 
 Wersja 0.1.0.
