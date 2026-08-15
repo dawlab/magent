@@ -35,7 +35,7 @@ Potrzebujesz trzech rzeczy:
 
 **Claude Code.** Program, w którym działa MarketingAgent. Instalujesz go raz, jak każdą inną aplikację. Instrukcja instalacji jest w pierwszym module kursu.
 
-**Adres MarketingAgenta.** Otrzymujesz go przy zakupie. To link, a nie plik do pobrania. W instrukcji zapisuję go jako `<adres>` — wstawiasz w to miejsce adres, który dostałeś.
+**Adres MarketingAgenta.** `dawlab/magent` — to wskazanie, skąd Claude Code ma pobrać agenta. Nie jest to plik do pobrania; wpisujesz ten adres w poleceniu instalacyjnym.
 
 **Folder na dane firmy.** Zwykły folder na dysku, na przykład `Moja Firma` w Dokumentach. MarketingAgent zapisze tam wszystko, czego się o Twojej firmie dowie, oraz materiały, które przygotuje.
 
@@ -58,7 +58,7 @@ Otwórz Terminal. To okno, w którym wydaje się polecenia, wpisując je tekstem
 Wpisz poniższe polecenie i naciśnij Enter:
 
 ```
-claude plugin marketplace add <adres>
+claude plugin marketplace add dawlab/magent
 ```
 
 Następnie drugie:
@@ -398,7 +398,7 @@ Post czeka na Twoją akceptację. Publikacja zawsze wymaga potwierdzenia — to 
 W Terminalu:
 
 ```
-claude plugin marketplace add <adres>
+claude plugin marketplace add dawlab/magent
 claude plugin install magent-rdzen@magent
 ```
 
