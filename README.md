@@ -14,7 +14,7 @@ Pracujesz z nim przez rozmowę — piszesz, czego potrzebujesz, on to robi. Wszy
 4. [Jak wydawać polecenia](#4-jak-wydawać-polecenia)
 5. [Dwa tryby pracy](#5-dwa-tryby-pracy)
 6. [Dokładanie obszarów](#6-dokładanie-obszarów)
-7. [Co potrafi każdy obszar](#7-co-potrafi-każdy-obszar)
+7. [Obszary i komendy instalacji](#7-obszary-i-komendy-instalacji)
 8. [Spis komend](#8-spis-komend)
 9. [Podłączanie narzędzi](#9-podłączanie-narzędzi)
 10. [Strona, audyty i Twój styl](#10-strona-audyty-i-twój-styl)
@@ -157,16 +157,7 @@ Tryby przechodzą jeden w drugi. Jeśli podczas pracy zabraknie jakiegoś elemen
 
 Obszar to zestaw umiejętności w jednej dziedzinie — na przykład tworzenie treści albo obsługa social mediów. Dokładasz je pojedynczo, wtedy gdy są potrzebne.
 
-Dodanie obszaru to dwa polecenia w oknie Claude Code:
-
-```
-/plugin install magent-tresci@magent
-```
-```
-/tresci-start
-```
-
-Drugie polecenie włącza obszar, konfiguruje go i wyjaśnia, co od tej pory jest możliwe.
+Każdy obszar dodajesz dwoma poleceniami w oknie Claude Code: pierwsze pobiera obszar, drugie go włącza i konfiguruje. Gotowe komendy dla wszystkich obszarów znajdziesz w [punkcie 7](#7-obszary-i-komendy-instalacji).
 
 **Kolejność, która sprawdza się najczęściej:**
 
@@ -181,16 +172,65 @@ Nie musisz mieć wszystkich obszarów. Przy jednoosobowej firmie skuteczniejsze 
 
 ---
 
-## 7. Co potrafi każdy obszar
+## 7. Obszary i komendy instalacji
 
-| Obszar | Komenda włączająca | Zakres |
-|---|---|---|
-| **Treści** | `/tresci-start` | Posty, scenariusze filmów, plan treści, opisy profilu i strony, teksty pod wyszukiwarki i modele AI |
-| **Opinie** | `/opinie-start` | Proszenie o opinie we właściwym momencie, przerabianie ich na materiał sprzedażowy |
-| **Sprzedaż** | `/sprzedaz-start` | Materiał do pobrania w zamian za kontakt, strona zapisu, sekwencje maili, odzyskiwanie klientów |
-| **Polecenia** | `/polecenia-start` | Mechanizm poleceń, skrypty rozmów, propozycje współpracy |
-| **Social media** | `/social-start` | Kompletny post: tekst, grafika i opis publikacji; publikacja po Twojej akceptacji |
-| **Reklama płatna** | `/reklama-start` | Teksty reklam, opis kreacji, plan budżetu testowego; kampanię uruchamiasz samodzielnie |
+Dla każdego obszaru wklej obie linijki w oknie Claude Code, jedna po drugiej. Po ich wykonaniu obszar jest gotowy do pracy.
+
+### Treści
+
+```
+/plugin install magent-tresci@magent
+/tresci-start
+```
+
+Posty, scenariusze filmów, plan treści, opisy profilu i strony, teksty przygotowane pod wyszukiwarki i modele AI.
+
+### Opinie
+
+```
+/plugin install magent-opinie@magent
+/opinie-start
+```
+
+Proszenie o opinie we właściwym momencie i przerabianie ich na materiał, który przekonuje kolejnych klientów.
+
+### Sprzedaż
+
+```
+/plugin install magent-sprzedaz@magent
+/sprzedaz-start
+```
+
+Materiał do pobrania w zamian za kontakt, strona zapisu, sekwencje maili, odzyskiwanie dawnych klientów.
+
+### Polecenia
+
+```
+/plugin install magent-polecenia@magent
+/polecenia-start
+```
+
+Mechanizm poleceń, skrypty rozmów z klientami, propozycje współpracy z innymi firmami.
+
+### Social media
+
+```
+/plugin install magent-social@magent
+/social-start
+```
+
+Kompletny post — tekst, grafika i opis publikacji. Publikacja odbywa się po Twojej akceptacji.
+
+### Reklama płatna
+
+```
+/plugin install magent-reklama@magent
+/reklama-start
+```
+
+Teksty reklam, opis kreacji, plan budżetu testowego. Kampanię uruchamiasz samodzielnie.
+
+---
 
 Każdy obszar działa również bez podłączonych narzędzi zewnętrznych — wtedy przekazuje gotowy materiał do skopiowania.
 
@@ -231,7 +271,7 @@ Każdy obszar działa również bez podłączonych narzędzi zewnętrznych — w
 | `@głos …` | Przepisanie tekstu Twoim tonem |
 | `@social …` | Przygotowanie materiału na social media |
 
-**Włączanie obszarów:** `/tresci-start`, `/opinie-start`, `/sprzedaz-start`, `/polecenia-start`, `/reklama-start`, `/social-start`.
+Komendy instalujące i włączające poszczególne obszary znajdziesz w [punkcie 7](#7-obszary-i-komendy-instalacji).
 
 ---
 
@@ -413,7 +453,3 @@ W oknie Claude Code, otwartym w folderze firmy:
 Dalej: dokładaj obszary w kolejności Treści → Opinie → Sprzedaż → Polecenia → Social → Reklama i pracuj cyklem *ustal kierunek → wykonaj → sprawdź wynik*.
 
 Przy kilku firmach — osobny folder na każdą.
-
----
-
-*Rozwijasz MarketingAgenta albo wydajesz nowe wersje? Proces wydawniczy i struktura repozytorium: [WYDANIE.md](WYDANIE.md).*
