@@ -1,97 +1,103 @@
-# MarketingAgent — lekki system marketingowy dla Claude Code
+# MarketingAgent — system marketingowy dla Claude Code
 
-MarketingAgent to operator marketingu (`@marketing`) dla solo-przedsiębiorcy. Mieszka w Twoim folderze i działa w Claude Code. Namierza, skąd realnie wezmą się klienci, dobiera jeden obszar, prowadzi produkcję treści i pilnuje wyniku. **Nic nie wychodzi w świat bez Twojego kliknięcia** — operator przygotowuje rzecz gotową do wysłania, decyzję podejmujesz Ty.
+MarketingAgent prowadzi marketing jednoosobowej firmy. Ustala, skąd realnie wezmą się klienci, przygotowuje treści w Twoim stylu, buduje stronę, podłącza narzędzia i pilnuje wyników.
 
-Operatorowi możesz w pierwszej rozmowie nadać własne imię.
+**Nic nie trafia do odbiorców bez Twojej decyzji** — agent przygotowuje materiał gotowy do wysłania, akceptujesz Ty.
 
-## Czym różni się od typowych „agentów w promptcie"
+Pełna instrukcja: [INSTRUKCJA-OBSLUGI.md](INSTRUKCJA-OBSLUGI.md)
 
-- **Lekki tokenowo.** Rdzeń to krótka rozdzielnia; procedury wczytują się dopiero, gdy są potrzebne. Dane firmy czytane raz na sesję, nie przy każdej odpowiedzi.
-- **Prawdziwie modułowy.** Ciężka praca (research, kanały) idzie do podagentów z własnym, izolowanym kontekstem.
-- **Instalowany etapami.** Nie dostajesz od razu wielkiego narzędzia, w którym nie wiadomo, co robić. Zaczynasz od rdzenia (@głos + nauka firmy), a kolejne obszary dokładasz razem z kursem — jeden moduł, jeden plugin.
-- **Prawdziwy agent.** Obszary potrafią podłączać narzędzia (np. Search Console, Google Ads) i czytać z nich dane. Działanie na zewnątrz (publikacja, wydatek) zawsze zostaje do Twojego kliknięcia.
-- **Opiniotwórczy, nie encyklopedyczny.** Kanały ułożone w 5 obszarów wzrostu; prowadzimy 1–2 do skutku, nie rozmieniamy się na dziesiątki.
-- **Natywny pod Claude Code.** Pluginy, skille, podagenci, komendy — bez zewnętrznych licencji i telemetrii. Wersjonowanie przez git.
+## Instalacja
 
-## Instalacja (etapami)
-
-MarketingAgent instaluje się jako pluginy z marketplace'u MarketingAgent — stopniowo, wraz z kursem.
-
-**Krok 1 — w terminalu** (zwykła powłoka systemu, np. Terminal na Macu — NIE okno Claude Code):
+**Krok 1 — w terminalu** (zwykła powłoka systemu: „Terminal" na macOS, „PowerShell" na Windowsie — nie okno Claude Code):
 
 ```bash
-claude plugin marketplace add <repo-lub-ścieżka-magent>
+claude plugin marketplace add dawlab/magent
 ```
 ```bash
 claude plugin install magent-rdzen@magent
 ```
 
-**Krok 2 — w oknie Claude Code** (tam, gdzie piszesz do asystenta):
+**Krok 2 — w oknie Claude Code**, otwartym w folderze Twojej firmy:
 
 ```
 /magent-setup
 ```
-Stawia czystą instancję (`dane/`, `system/`, `CLAUDE.md`). Przeładuj Claude Code, a potem:
+
+Tworzy strukturę plików na dane firmy. Następnie uruchom Claude Code ponownie i wpisz:
 
 ```
-/start
+/nauka-firmy
 ```
-MarketingAgent sprawdza stan i podpowiada pierwszy ruch (możesz też od razu `/nauka-firmy`).
 
-Kolejne moduły kursu dokładają obszary tak samo: w **terminalu** `claude plugin install magent-tresci@magent`, potem w **Claude Code** `/tresci-start`.
+Agent pozna Twoją firmę i zapisze jej profil. Od tego momentu możesz pracować — a `/start` w każdej chwili podpowie następny krok.
 
-> **Terminal vs Claude Code:** `claude plugin …` to polecenia **terminala**; `/magent-setup`, `/start`, `/tresci-start` to komendy w **oknie Claude Code**. Interaktywny `/plugin` w części środowisk nie działa — dlatego instalujemy z terminala.
->
-> **Aktualizacje:** zainstalowany plugin jest zamrożony przy instalacji. Nowszą wersję pobierzesz przez `claude plugin update magent-rdzen@magent` (i restart Claude Code).
+Kolejne obszary dokładasz tak samo: w terminalu `claude plugin install magent-tresci@magent`, potem w Claude Code `/tresci-start`.
 
-Wymaga tylko Claude Code. Rdzeń działa w trybie „przygotuj do kliknięcia" (bez kluczy); obszary opcjonalnie podłączają narzędzia.
+> `claude plugin …` to polecenia terminala. `/magent-setup`, `/start`, `/tresci-start` to komendy wpisywane w oknie Claude Code.
 
-## Dwa tryby (żeby się nie zgubić)
+**Aktualizacje:** `claude plugin marketplace update magent`, potem `claude plugin update magent-rdzen@magent` (oraz zainstalowane obszary) i ponowne uruchomienie Claude Code. Dane firmy pozostają nietknięte.
 
-MarketingAgent działa w dwóch wyraźnych trybach — ta sama asystentura, inne zadanie:
-- **Rozbudowa** — budujemy i stroimy narzędzie: nauka firmy, rozwój głosu, dokładanie obszarów, uzupełnianie plików. Prowadzi za rękę, krok po kroku.
-- **Praca** — działamy tym, co już mamy: treści, analiza, rozwiązywanie problemów, pomiar.
+## Instalacja etapami
 
-Nie wiesz, od czego zacząć? Wpisz **`/start`** — MarketingAgent przypomni, na czym stanęliście, pokaże Twój **streak** (dni z rzędu z narzędziem) i rangę, i podpowie najlepszy następny ruch. Konsekwencja jest tu nagradzana, bo w marketingu rozpęd łatwiej utrzymać niż odbudować.
+Agent nie przychodzi w całości. Zaczynasz od rdzenia, a obszary dokładasz stopniowo — jeden moduł kursu, jeden obszar. Dzięki temu w każdym momencie wiadomo, co jest do zrobienia.
 
-## Jak używać
+| Obszar | Instalacja | Włączenie | Zakres |
+|---|---|---|---|
+| Rdzeń | `magent-rdzen` | `/magent-setup` | Operator marketingu, Twój styl wypowiedzi, planowanie, strona, audyty |
+| Treści | `magent-tresci` | `/tresci-start` | Posty, scenariusze wideo, plan treści, teksty pod wyszukiwarki i modele AI |
+| Opinie | `magent-opinie` | `/opinie-start` | Zbieranie opinii i przerabianie ich na materiał sprzedażowy |
+| Sprzedaż | `magent-sprzedaz` | `/sprzedaz-start` | Materiał w zamian za kontakt, strona zapisu, sekwencje maili |
+| Polecenia | `magent-polecenia` | `/polecenia-start` | System poleceń i współpraca z innymi firmami |
+| Social media | `magent-social` | `/social-start` | Kompletny post z grafiką, publikacja po akceptacji |
+| Reklama płatna | `magent-reklama` | `/reklama-start` | Teksty reklam, plan budżetu testowego |
 
-| Komenda | Co robi |
+## Komendy
+
+| Komenda | Działanie |
 |---|---|
-| `/start` | Front door — gdzie jesteś i co najlepiej teraz zrobić |
-| `/rozbudowa` | Tryb rozbudowy — dołóż/skonfiguruj (firma, głos, obszary) |
-| `/praca` | Tryb pracy — działaj tym, co masz |
-| `@marketing` | Operator (praca) — namierza, skąd klienci, dobiera ruch |
-| `@głos` | Ubiera gotowy tekst w Twój ton |
-| `/sesja` | Sesja robocza: brief → praca → podsumowanie |
-| `/stan` | Gdzie jest firma i jaki jest najlepszy ruch |
-| `/ruch` | Jeden najlepszy następny ruch (dla zabieganych) |
-| `/audyt` | Gdzie firma przepala budżet |
-| `/korekta` | Utrwal zasadę — „od teraz rób X" (agent uczy się raz, na stałe) |
+| `/start` | Podsumowanie sytuacji i propozycja następnego kroku |
+| `/rozbudowa` | Konfigurowanie: firma, styl, obszary, narzędzia |
+| `/praca` | Praca tym, co już skonfigurowane |
+| `/stan` | Stan marketingu i najlepszy ruch w tym momencie |
+| `/ruch` | Sam następny krok, bez omówienia |
+| `/strategia` | Co sprzedawać, do kogo kierować ofertę, czego zaniechać |
+| `/sesja` | Prowadzenie przez jedną porcję pracy od briefu do podsumowania |
+| `/audyt` | Gdzie marketing pochłania pieniądze bez efektu |
+| `/narzedzia` | Rekomendacja i konfiguracja jednego narzędzia |
+| `/strona` | Strona-wizytówka w kolorystyce Twojej marki |
+| `/checklista` | Ocena strony, oferty lub treści — 3–5 poprawek |
+| `/korekta` | Trwała zasada, według której agent ma dalej pracować |
 
-Można też pisać po ludzku — np. „potrzebuję 30 zapisów na newsletter w miesiąc".
+Do tego dwa wywołania kierujące zadanie do konkretnego pomocnika: `@marketing` (planowanie i produkcja) oraz `@głos` (nadanie tekstowi Twojego tonu). Możesz też pisać zwykłymi zdaniami — „potrzebuję 30 zapisów na newsletter w miesiąc".
 
-## Co wypełniasz Ty
+## Zasady działania
 
-Tylko folder `dane/` (profil, persona, oferta, dane marketingowe, styl). Reszta (`system/`, `outputs/`) prowadzi się sama w trakcie pracy. Zacznij od `@marketing`.
+- **Decyzje należą do Ciebie.** Publikacja, wysyłka i wydatki wymagają akceptacji za każdym razem.
+- **Odczyt danych bez pytania, działanie za zgodą.** Agent sprawdzi statystyki samodzielnie; opublikować czy wysłać — nie.
+- **Bez zmyślania.** Nieznanej liczby agent nie zastąpi przybliżeniem, tylko powie, że jej nie ma.
+- **Jeden lub dwa kanały prowadzone konsekwentnie**, zamiast wszystkich naraz.
+- **Bez zewnętrznych licencji i telemetrii.** Wymaga wyłącznie Claude Code; narzędzia zewnętrzne są opcjonalne.
 
-## Struktura
+## Twoje dane
+
+Wiedza o firmie i gotowe materiały zostają w Twoim folderze:
 
 ```
-CLAUDE.md                       rozdzielnia (cienka, zawsze wczytana)
-.claude-plugin/marketplace.json spis pluginów MarketingAgent
-plugins/magent-rdzen/              rdzeń: skill marketing (operator + moduły), glos, komendy, zwiadowca
-plugins/magent-tresci/         obszar Treści (podagent + komenda + połączenia)
-plugins/magent-*/                  kolejne obszary — dokładane w kursie
-dane/                           Twoje dane (wypełniasz przez /nauka-firmy)
-system/                         stan: tożsamość, zainstalowane/aktywne obszary, pomiar, roadmap
-outputs/                        wyniki per kanał
+dane/      profil firmy, odbiorcy, oferta, Twój styl wypowiedzi
+system/    stan bieżący, Twoje zasady, historia pracy
+outputs/   gotowe materiały: posty, strony, analizy
 ```
 
-Dane (`dane/`, `system/`, `outputs/`) są Twoje i mieszkają w Twoim katalogu — pluginy ich nie dotykają przy instalacji/aktualizacji.
+Instalacja i aktualizacje pluginów nie dotykają tych plików. Przy kilku firmach prowadź osobny folder dla każdej.
 
-## Pętla pracy
+## Struktura repozytorium
 
-**Namierz → Zrób → Zmierz.** Operator ustala, skąd wezmą się klienci, produkuje przez właściwy kanał i domyka pomiarem. Bez pomiaru marketing to koszt, nie inwestycja.
+```
+.claude-plugin/marketplace.json   spis pluginów
+plugins/magent-rdzen/             rdzeń: operator, styl, komendy, szablony startowe
+plugins/magent-*/                 obszary dokładane w kursie
+CLAUDE.md                         rozdzielnia: routing i zasady
+INSTRUKCJA-OBSLUGI.md             pełna instrukcja dla użytkownika
+```
 
-Wersja: 0.5.0 (model pluginowy, 5 obszarów, dwa tryby + strategia).
+Wersja 0.1.0.
