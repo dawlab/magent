@@ -56,7 +56,7 @@ Jeśli zmienisz zawartość wtyczki, ale nie podniesiesz numeru wersji, klienci 
 Do testowania zmian bez wydawania używaj katalogu źródłowego:
 
 ```bash
-claude plugin marketplace add /Volumes/Dysk/Projekty/Osobiste/ag1
+claude plugin marketplace add ./            # z katalogu głównego repozytorium
 ```
 
 Marketplace nosi wtedy tę samą nazwę `magent`, co wersja dystrybucyjna — nie rejestruj obu naraz na jednym koncie, bo nazwy się zduplikują. Pełny test instalacji od zera wykonuj na osobnym koncie albo w osobnym środowisku, tak jak zrobi to klient.
