@@ -1,0 +1,12 @@
+{
+  "_uwaga": "SZABLON, nie plik roboczy. Skopiuj do `.mcp.json` w katalogu tego pluginu, gdy będzie serwer MCP do Twojego narzędzia mailingowego. Autoryzuj zakres do ODCZYTU listy/statystyk; wysyłka i tak pozostaje po stronie właściciela (kolejka decyzji). Do tego czasu obszar działa w trybie bez API.",
+  "_wariant_remote": {
+    "mcpServers": {
+      "mailing": {
+        "type": "http",
+        "url": "https://ENDPOINT-KONEKTORA/mcp",
+        "note": "Konektor narzędzia mailingowego (np. MailerLite) — odczyt listy i statystyk."
+      }
+    }
+  }
+}

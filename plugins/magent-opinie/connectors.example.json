@@ -1,0 +1,12 @@
+{
+  "_uwaga": "SZABLON, nie plik roboczy. Skopiuj do `.mcp.json` w katalogu tego pluginu i uzupełnij realnymi danymi konektora Google Business Profile, gdy taki serwer MCP jest dostępny. Zakres ma pozostać wyłącznie do odczytu. Do tego czasu obszar działa w trybie bez narzędzia.",
+  "_wariant_remote": {
+    "mcpServers": {
+      "google-business-profile": {
+        "type": "http",
+        "url": "https://ENDPOINT-KONEKTORA/mcp",
+        "note": "Konektor OAuth do Google Business Profile — autoryzacja tylko do odczytu opinii (read-only)."
+      }
+    }
+  }
+}

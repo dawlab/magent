@@ -1,0 +1,6 @@
+{
+  "name": "magent-opinie",
+  "version": "0.1.0",
+  "description": "Obszar Opinie dla MarketingAgent — system dowodu i zaufania: prośby o opinię, testimoniale i case z surowca, ekspozycja dowodu. Tryb bez narzędzia albo z Google Business Profile (odczyt opinii). Wymaga magent-rdzen.",
+  "author": { "name": "MarketingAgent" }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "magent",
+  "owner": { "name": "MarketingAgent" },
+  "metadata": {
+    "description": "MarketingAgent — system marketingowy dla solo-przedsiębiorcy. Instalowany etapami: najpierw rdzeń (@głos, nauka firmy, operator), potem obszary dokładane w trakcie kursu.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "magent-rdzen",
+      "source": "./plugins/magent-rdzen",
+      "version": "0.1.0",
+      "description": "Minimum po zakupie: @głos, nauka firmy i operator marketingu (mózg pętli Namierz→Zrób→Zmierz). Bez obszarów — te dokładasz osobno w kolejnych modułach."
+    },
+    {
+      "name": "magent-tresci",
+      "source": "./plugins/magent-tresci",
+      "version": "0.1.0",
+      "description": "Obszar Treści: treści organiczne (posty, wideo, plan treści, copy profilu/strony). Tryb bez narzędzia lub z Search Console."
+    },
+    {
+      "name": "magent-opinie",
+      "source": "./plugins/magent-opinie",
+      "version": "0.1.0",
+      "description": "Obszar Opinie: dowód i zaufanie (prośby o opinię, testimoniale i case z surowca, ekspozycja dowodu). Tryb bez narzędzia lub z Google Business Profile."
+    },
+    {
+      "name": "magent-sprzedaz",
+      "source": "./plugins/magent-sprzedaz",
+      "version": "0.1.0",
+      "description": "Obszar Sprzedaż: lead magnet i landing, sekwencje maili, newsletter, powroty, DM. Domyślnie tryb bez API; konektor mailingowy na później."
+    },
+    {
+      "name": "magent-polecenia",
+      "source": "./plugins/magent-polecenia",
+      "version": "0.1.0",
+      "description": "Obszar Polecenia: polecenia i partnerstwa (mechanika, skrypty, wiadomości partnerskie, briefy współpracy). Obszar bez narzędzia zewnętrznego."
+    },
+    {
+      "name": "magent-reklama",
+      "source": "./plugins/magent-reklama",
+      "version": "0.1.0",
+      "description": "Obszar Reklama płatna (warunkowy): copy, brief kreatywny, plan kampanii i budżetu testowego. Design-only; tryb bez narzędzia lub z Google Ads + Search Console."
+    },
+    {
+      "name": "magent-social",
+      "source": "./plugins/magent-social",
+      "version": "0.1.0",
+      "description": "Obszar Social: dystrybucja i publikacja. Składa kompletny post (tekst + grafika w stylu marki) i publikuje/planuje przez zernio — za bramą decyzji. Grafiki darmowo: Canva (konektor MCP, darmowe konto) albo szablony HTML/SVG. Tryb bez narzędzia lub z zernio."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "_uwaga": "SZABLON, nie plik roboczy. Skopiuj do `.mcp.json` w katalogu tego pluginu i uzupełnij realnymi danymi konektora Search Console, gdy taki serwer MCP jest dostępny. Do tego czasu obszar działa w trybie bez narzędzia. Zakres ma pozostać wyłącznie do odczytu.",
+  "_wariant_remote": {
+    "mcpServers": {
+      "search-console": {
+        "type": "http",
+        "url": "https://ENDPOINT-KONEKTORA/mcp",
+        "note": "Konektor OAuth do Google Search Console — autoryzacja tylko do odczytu (read-only)."
+      }
+    }
+  },
+  "_wariant_stdio": {
+    "mcpServers": {
+      "search-console": {
+        "command": "POLECENIE-SERWERA-MCP",
+        "args": ["--readonly"],
+        "note": "Wariant lokalny/stdio, jeśli używasz serwera uruchamianego poleceniem."
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "_uwaga": "SZABLON, nie plik roboczy. Skopiuj do `.mcp.json` w katalogu tego pluginu i zostaw tylko realnie używane wpisy. zernio służy do publikacji/planowania — publikacja i tak zostaje ZA BRAMĄ decyzji (operator nie publikuje sam). Konektor mediów jest opcjonalny; domyślnie grafiki robimy jako darmowe szablony HTML/SVG.",
+  "_wariant_zernio_oauth": {
+    "mcpServers": {
+      "zernio": {
+        "type": "http",
+        "url": "https://mcp.zernio.com/mcp",
+        "note": "Hostowany serwer MCP zernio. Rekomendowane: logowanie OAuth kontem zernio przy pierwszym użyciu — bez wklejania kluczy. Konta social łączy właściciel w panelu zernio."
+      }
+    }
+  },
+  "_wariant_zernio_bearer": {
+    "mcpServers": {
+      "zernio": {
+        "type": "http",
+        "url": "https://mcp.zernio.com/mcp",
+        "headers": {
+          "Authorization": "Bearer sk_TWOJ_KLUCZ_Z_ZERNIO_DASHBOARD_API_KEYS"
+        },
+        "note": "Wariant z kluczem API (z zernio.com/dashboard/api-keys). Trzymaj klucz poza repozytorium."
+      }
+    }
+  },
+  "_wariant_canva": {
+    "mcpServers": {
+      "canva": {
+        "type": "http",
+        "url": "https://mcp.canva.com/mcp",
+        "note": "Oficjalny konektor Canva. OAuth przy pierwszym użyciu. Na darmowym koncie: tworzenie projektów działa; eksport przez API płatny (na free eksportujesz ręcznie z Canvy); Autofill 'na skalę' to Enterprise. Claude Code: `claude mcp add canva --transport http https://mcp.canva.com/mcp`."
+      }
+    }
+  },
+  "_wariant_wideo_invideo": {
+    "mcpServers": {
+      "invideo": {
+        "type": "http",
+        "url": "POBIERZ-AKTUALNY-ENDPOINT-Z-help.invideo.io",
+        "note": "OPCJONALNE. Invideo AI: skrypt/prompt -> gotowe wideo social (stock + klipy AI + napisy + lektor). Darmowy plan na start (znak wodny/limit). Endpoint MCP i sposób logowania pobierz z dokumentacji Invideo ('Model Context Protocol Server') — nie zgadujemy adresu."
+      }
+    }
+  },
+  "_wariant_wideo_higgsfield": {
+    "mcpServers": {
+      "higgsfield": {
+        "type": "http",
+        "url": "POBIERZ-AKTUALNY-ENDPOINT-Z-DOKUMENTACJI-HIGGSFIELD",
+        "note": "OPCJONALNE. Higgsfield: generuje surowe klipy AI z promptu (generate_video, generate_image i in.). Darmowy tier ~150 kredytow/mies. Endpoint i komende setupu pobierz z dokumentacji Higgsfield — nie zgadujemy adresu."
+      }
+    }
+  }
+}

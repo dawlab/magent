@@ -1,0 +1,6 @@
+{
+  "name": "magent-rdzen",
+  "version": "0.1.0",
+  "description": "Rdzeń MarketingAgent: @głos, nauka firmy i operator marketingu z pętlą Namierz→Zrób→Zmierz. Obszary-ręce (Treści, Opinie, Sprzedaż, Polecenia, Reklama) dokładane jako osobne pluginy.",
+  "author": { "name": "MarketingAgent" }
+}

@@ -1,0 +1,17 @@
+{
+  "_uwaga": "SZABLON, nie plik roboczy. Skopiuj do `.mcp.json` w katalogu tego pluginu i uzupełnij realnymi danymi konektorów, gdy serwery MCP są dostępne. Zakres ma pozostać wyłącznie do odczytu — zmiany w panelu i wydatki zawsze po stronie właściciela. Do tego czasu obszar działa w trybie bez narzędzia.",
+  "_wariant_remote": {
+    "mcpServers": {
+      "google-ads": {
+        "type": "http",
+        "url": "https://ENDPOINT-KONEKTORA-ADS/mcp",
+        "note": "Konektor OAuth do Google Ads — autoryzacja tylko do odczytu metryk (read-only)."
+      },
+      "search-console": {
+        "type": "http",
+        "url": "https://ENDPOINT-KONEKTORA-GSC/mcp",
+        "note": "Konektor OAuth do Google Search Console — tylko odczyt."
+      }
+    }
+  }
+}

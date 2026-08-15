@@ -1,0 +1,6 @@
+{
+  "name": "magent-social",
+  "version": "0.1.0",
+  "description": "Obszar Social dla MarketingAgent — dystrybucja i publikacja. Składa kompletny post (tekst + grafika w stylu marki), planuje i publikuje przez zernio (za bramą decyzji). Tryb bez narzędzia (post + szablon grafiki do wklejenia) albo z narzędziem (zernio — publikacja/planowanie; opcjonalnie konektor generacji mediów / Canva). Wymaga zainstalowanego magent-rdzen.",
+  "author": { "name": "MarketingAgent" }
+}
