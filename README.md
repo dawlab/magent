@@ -176,59 +176,59 @@ Nie musisz mieć wszystkich obszarów. Przy jednoosobowej firmie skuteczniejsze 
 
 Dla każdego obszaru wklej obie linijki w oknie Claude Code, jedna po drugiej. Po ich wykonaniu obszar jest gotowy do pracy.
 
-### Treści
+### Treści — żeby klienci mogli Cię znaleźć
 
 ```
 /plugin install magent-tresci@magent
 /tresci-start
 ```
 
-Posty, scenariusze filmów, plan treści, opisy profilu i strony, teksty przygotowane pod wyszukiwarki i modele AI.
+Produkuje treści, które sprawiają, że kupujący Cię znajdą i zobaczą. Bierze jeden temat i rozkłada go na wiele formatów: post na główną platformę, scenariusz krótkiego wideo, plan treści na tydzień, zajawkę do maila. Do tego pisze opis Twojego profilu Google i strony, dłuższe teksty pod wyszukiwarki oraz treści przygotowane tak, by cytowały je modele AI (ChatGPT, Perplexity). Dobiera temat z realnego problemu Twojego klienta, a nie z sufitu — jeśli podłączysz Google Search Console, opiera go dodatkowo na tym, czego ludzie faktycznie szukają. To zwykle pierwszy obszar, od którego się zaczyna.
 
-### Opinie
+### Opinie — zaufanie jako dowód
 
 ```
 /plugin install magent-opinie@magent
 /opinie-start
 ```
 
-Proszenie o opinie we właściwym momencie i przerabianie ich na materiał, który przekonuje kolejnych klientów.
+Zamienia zadowolonych klientów w dowód, który przekonuje kolejnych. Podpowiada, kiedy i jak poprosić o opinię, żeby ludzie faktycznie ją zostawiali, i daje gotowe szablony próśb. Surową wypowiedź klienta — nawet jedno zdanie z SMS-a — przerabia w dopracowany testimonial, historię „przed i po" albo mini-case do pokazania na stronie i w treściach. Pracuje wyłącznie na materiale, który mu dasz — nie wymyśla opinii. Włączasz go, gdy masz już pierwszych zadowolonych klientów, choćby kilku.
 
-### Sprzedaż
+### Sprzedaż — złap kontakt i doprowadź do zakupu
 
 ```
 /plugin install magent-sprzedaz@magent
 /sprzedaz-start
 ```
 
-Materiał do pobrania w zamian za kontakt, strona zapisu, sekwencje maili, odzyskiwanie dawnych klientów.
+Buduje drogę od „ktoś zajrzał" do „ktoś kupił". Tworzy lead magnet (darmowy pierwszy krok: poradnik, checklistę, mini-narzędzie) i tekst strony zapisu, na której zbierasz kontakty. Pisze sekwencje maili powitalnych i newsletter, które budują zaufanie i prowadzą do oferty, a także wiadomości odzyskujące dawnych, uśpionych klientów i skrypty rozmów w wiadomościach prywatnych. Oddaje gotowy tekst do wklejenia; wysyłkę zawsze zatwierdzasz Ty. Sensowny, gdy masz choć trochę ruchu do przechwycenia.
 
-### Polecenia
+### Polecenia — niech inni przyprowadzają klientów
 
 ```
 /plugin install magent-polecenia@magent
 /polecenia-start
 ```
 
-Mechanizm poleceń, skrypty rozmów z klientami, propozycje współpracy z innymi firmami.
+Uruchamia najtańsze źródło klientów: cudze zaufanie. Układa prosty mechanizm poleceń — kiedy i jak poprosić, jaka drobna zachęta, jak podziękować — i daje gotowe skrypty rozmów z klientami. Pomaga też dobrać partnerów, którzy mają tych samych odbiorców co Ty bez konkurowania o ofertę, pisze wiadomości do nich i briefy współpracy, w tym akcje co-marketingowe za zero złotych. „Kto" — których klientów i partnerów zaczepić — wskazujesz Ty; obszar daje system i teksty. Dobry, gdy masz zadowolonych klientów albo partnera z tą samą grupą.
 
-### Social media
+### Social media — złóż post i opublikuj
 
 ```
 /plugin install magent-social@magent
 /social-start
 ```
 
-Kompletny post — tekst, grafika i opis publikacji. Publikacja odbywa się po Twojej akceptacji.
+Zamienia gotowy przekaz w kompletny, publikowalny post pod konkretny kanał. Składa trzy rzeczy naraz: tekst dopasowany do platformy, grafikę w kolorystyce Twojej marki (za darmo, bez osobnego narzędzia) i — gdy trzeba — scenariusz krótkiego wideo. Jeśli podłączysz publikowanie, przygotowuje wpis gotowy do wysłania na 15+ platform. Publikacja odbywa się wyłącznie po Twojej akceptacji — obszar niczego nie wrzuca w świat sam. To ręka dystrybucyjna: Treści dają temat, Social ubiera go w post.
 
-### Reklama płatna
+### Reklama płatna — dolej budżetu, gdy coś działa
 
 ```
 /plugin install magent-reklama@magent
 /reklama-start
 ```
 
-Teksty reklam, opis kreacji, plan budżetu testowego. Kampanię uruchamiasz samodzielnie.
+Przygotowuje reklamę, gdy przychodzi czas ją włączyć — a nie wcześniej. Pisze teksty reklam i warianty nagłówków, brief kreatywny, sugestie grupy docelowej oraz strukturę kampanii z budżetem testowym i jasnym progiem „działa / nie działa". Świadomie zatrzymuje się na projekcie: samo założenie i doglądanie kampanii w panelu reklamowym robisz Ty. Obszar jest domyślnie uśpiony i ma sens dopiero wtedy, gdy masz budżet oraz coś, co już przynosi klientów za darmo — reklama skaluje to, co działa, nie ratuje tego, co nie.
 
 ---
 
