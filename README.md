@@ -70,7 +70,7 @@ Wklej poniższą linijkę i zatwierdź:
 Następnie drugą:
 
 ```
-/plugin install magent-rdzen@magent
+/plugin install magent@magent
 ```
 
 Pierwsza wskazuje, skąd pobrać MarketingAgenta. Druga instaluje jego podstawową część.
@@ -406,7 +406,7 @@ O każdej aktualizacji informujemy mailem i w kursie. Żeby ją pobrać, wpisz w
 /plugin marketplace update magent
 ```
 ```
-/plugin update magent-rdzen@magent
+/plugin update magent@magent
 ```
 
 Oraz to samo dla dodanych obszarów, na przykład `/plugin update magent-tresci@magent`.
@@ -443,7 +443,7 @@ W oknie Claude Code, otwartym w folderze firmy:
 
 ```
 /plugin marketplace add https://dawlab.github.io/magent/marketplace.json
-/plugin install magent-rdzen@magent
+/plugin install magent@magent
 /magent-setup       → uruchom Claude Code ponownie
 /nauka-firmy        → profil firmy
 @copywriter [test]        → sprawdzenie stylu

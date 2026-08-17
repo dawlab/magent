@@ -1,5 +1,5 @@
 {
-  "name": "magent-rdzen",
+  "name": "magent",
   "version": "0.1.0",
   "description": "Rdzeń MarketingAgent: @copywriter, nauka firmy i operator marketingu z pętlą Namierz→Zrób→Zmierz. Obszary-ręce (Treści, Opinie, Sprzedaż, Polecenia, Reklama) dokładane jako osobne pluginy.",
   "author": { "name": "MarketingAgent" }

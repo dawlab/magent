@@ -13,7 +13,7 @@ dist/
 
 # --- Instancja deweloperska (NIE publikujemy) ---
 # To dane testowe tego warsztatu. Klient dostaje czyste szablony
-# z plugins/magent-rdzen/starter/ przez komendę /magent-setup.
+# z plugins/magent/starter/ przez komendę /magent-setup.
 /dane/
 /system/
 /outputs/

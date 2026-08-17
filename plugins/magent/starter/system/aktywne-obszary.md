@@ -1,7 +1,7 @@
 # Aktywne obszary
 
 > Które obszary i kanały realnie prowadzimy TERAZ (1–2 kanały), a które śpią z warunkiem włączenia.
-> Wypełnia operator na etapie namierzania. Model obszarów: skill `marketing`, `moduly/obszary.md` (plugin `magent-rdzen`).
+> Wypełnia operator na etapie namierzania. Model obszarów: skill `marketing`, `moduly/obszary.md` (plugin `magent`).
 > To wybór strategiczny **spośród zainstalowanych** obszarów. Co w ogóle jest zainstalowane — `system/obszary-zainstalowane.md`. Aktywne ⊆ zainstalowane.
 
 Ostatnia aktualizacja: [—]

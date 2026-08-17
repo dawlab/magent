@@ -7,8 +7,8 @@
   },
   "plugins": [
     {
-      "name": "magent-rdzen",
-      "source": "./plugins/magent-rdzen",
+      "name": "magent",
+      "source": "./plugins/magent",
       "version": "0.1.0",
       "description": "Minimum po zakupie: @copywriter, nauka firmy i operator marketingu (mózg pętli Namierz→Zrób→Zmierz). Bez obszarów — te dokładasz osobno w kolejnych modułach."
     },

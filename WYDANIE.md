@@ -6,7 +6,7 @@ Dokument dla autora produktu. Instrukcja dla użytkownika: [README.md](README.md
 
 ```
 .claude-plugin/marketplace.json   katalog źródłowy (ścieżki względne, do pracy lokalnej)
-plugins/magent-rdzen/             rdzeń: operator, głos, przewodnik, komendy, starter
+plugins/magent/             rdzeń: operator, głos, przewodnik, komendy, starter
 plugins/magent-*/                 obszary: tresci, opinie, sprzedaz, polecenia, reklama, social
 docs/                             katalog dystrybucyjny (GitHub Pages)
   marketplace.json                  katalog dla klientów, źródła typu archive
@@ -16,7 +16,7 @@ CLAUDE.md                         rozdzielnia: routing i twarde zasady
 README.md                         instrukcja obsługi dla użytkownika
 ```
 
-Katalogi `dane/`, `system/`, `outputs/` w katalogu głównym to instancja deweloperska. Są wykluczone z repozytorium przez `.gitignore` — źródłem prawdy dla czystej instalacji jest `plugins/magent-rdzen/starter/`.
+Katalogi `dane/`, `system/`, `outputs/` w katalogu głównym to instancja deweloperska. Są wykluczone z repozytorium przez `.gitignore` — źródłem prawdy dla czystej instalacji jest `plugins/magent/starter/`.
 
 ## Jak działa dystrybucja
 
@@ -45,7 +45,7 @@ GitHub Pages serwuje katalog `docs/` z gałęzi `main`. Każdy `git push` aktual
    ```bash
    git add -A && git commit -m "wydanie 0.2.0" && git push
    ```
-6. **Powiadom klientów** — mailem albo w kursie. Aktualizacja nie instaluje się sama; klient wpisuje `/plugin marketplace update magent`, potem `/plugin update magent-rdzen@magent` i uruchamia Claude Code ponownie.
+6. **Powiadom klientów** — mailem albo w kursie. Aktualizacja nie instaluje się sama; klient wpisuje `/plugin marketplace update magent`, potem `/plugin update magent@magent` i uruchamia Claude Code ponownie.
 
 ### Pułapka: numer wersji jest sygnałem aktualizacji
 
@@ -65,7 +65,7 @@ Marketplace nosi wtedy tę samą nazwę `magent`, co wersja dystrybucyjna — ni
 
 1. `plugins/magent-X/` z podkatalogami `.claude-plugin/`, `agents/`, `commands/`.
 2. Podagent `agents/obszar-X.md` — sekcja „Tryby pracy (narzędzie)" i bramka jakości.
-3. `.claude-plugin/plugin.json` — nazwa, wersja, opis, informacja o zależności od `magent-rdzen`.
+3. `.claude-plugin/plugin.json` — nazwa, wersja, opis, informacja o zależności od `magent`.
 4. `commands/X-start.md` — wyjaśnia obszar, dopisuje wpis do `system/obszary-zainstalowane.md`, pyta o narzędzie, proponuje pierwszy ruch.
 5. Jeśli obszar ma narzędzie: `POLACZENIA.md` i `connectors.example.json`.
 6. Wpis w `.claude-plugin/marketplace.json`.

@@ -5,7 +5,7 @@ MarketingAgent pomaga solo-przedsiębiorcy zamienić marketing w powtarzalny dop
 ## Budowa etapami (ważne dla routingu)
 
 MarketingAgent jest instalowany **kawałkami**, jako pluginy z marketplace MarketingAgent — nie w całości. Klient dostaje je stopniowo, moduł kursu po module.
-- **Rdzeń** (`magent-rdzen`) — minimum po zakupie: skill `copywriter`, komenda `/nauka-firmy` i operator `marketing`. To jest zawsze.
+- **Rdzeń** (`magent`) — minimum po zakupie: skill `copywriter`, komenda `/nauka-firmy` i operator `marketing`. To jest zawsze.
 - **Obszary** (`magent-tresci`, `magent-opinie`, `magent-sprzedaz`, `magent-polecenia`, `magent-reklama`, `magent-social`) — dokładane osobno, każdy jako plugin z własnym podagentem i (opcjonalnie) narzędziem.
 
 Co jest realnie zainstalowane i skonfigurowane, mówi **`system/obszary-zainstalowane.md`** — nie zakładaj z góry, że jakikolwiek obszar istnieje. Czego tam nie ma, tego nie oferuj jako gotowego: powiedz, że dokłada się to w module kursu. Dane klienta (`dane/`, `system/`, `outputs/`) mieszkają w jego katalogu, poza pluginami.

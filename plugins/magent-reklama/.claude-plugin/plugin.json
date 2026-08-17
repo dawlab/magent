@@ -1,6 +1,6 @@
 {
   "name": "magent-reklama",
   "version": "0.1.0",
-  "description": "Obszar Reklama płatna dla MarketingAgent (warunkowy) — copy reklam, brief kreatywny, plan kampanii i budżetu testowego. Design-only: zakładanie kampanii po stronie właściciela. Tryb bez narzędzia albo z Google Ads + Search Console (odczyt metryk). Wymaga magent-rdzen.",
+  "description": "Obszar Reklama płatna dla MarketingAgent (warunkowy) — copy reklam, brief kreatywny, plan kampanii i budżetu testowego. Design-only: zakładanie kampanii po stronie właściciela. Tryb bez narzędzia albo z Google Ads + Search Console (odczyt metryk). Wymaga magent.",
   "author": { "name": "MarketingAgent" }
 }

@@ -48,7 +48,7 @@ def spakuj_wtyczke(katalog: Path, wersja: str) -> Path:
         for plik in sorted(katalog.rglob("*")):
             if plik.is_dir() or plik.name in POMIJANE:
                 continue
-            # ścieżka w archiwum: magent-rdzen/commands/start.md
+            # ścieżka w archiwum: magent/commands/start.md
             z.write(plik, Path(nazwa) / plik.relative_to(katalog))
     return cel
 
