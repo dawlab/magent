@@ -15,7 +15,7 @@
       "source": {
         "source": "archive",
         "url": "https://dawlab.github.io/magent/paczki/magent-0.1.0.zip",
-        "sha256": "6c08bd89ff7cb4ef3a5238e17e0722258380e94cae6ea5bb02724455dac9739b"
+        "sha256": "6e85857b402d360b4caaee8a9da1b69f6fe392b19ea6eb8aff2dbc95c7b41eb2"
       }
     },
     {
@@ -25,7 +25,7 @@
       "source": {
         "source": "archive",
         "url": "https://dawlab.github.io/magent/paczki/magent-tresci-0.1.0.zip",
-        "sha256": "17fd697f4df3f7349ef849836786b6a57d3e28dc7f648435aad6ccea0be0ae21"
+        "sha256": "0312dca1bc944b17d2adaae929d49fe2c88a9c6bb101327367fd1d4ce32cd1ad"
       }
     },
     {
@@ -75,7 +75,7 @@
       "source": {
         "source": "archive",
         "url": "https://dawlab.github.io/magent/paczki/magent-social-0.1.0.zip",
-        "sha256": "9841c50f59255262d593cc82615b752d6312e4e9a1af50d35fbe07edde1b7c68"
+        "sha256": "2513158768a35b70dacd1b85446eb90edbccdeb037ca2b563521bf3684820235"
       }
     }
   ]

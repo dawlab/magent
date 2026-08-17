@@ -28,12 +28,12 @@ Co jest realnie zainstalowane i skonfigurowane, mówi **`system/obszary-zainstal
 
 | Gdy użytkownik... | Uruchom |
 |---|---|
-| pierwszy kontakt / `@magent` / `/start` / „od czego zacząć", „co dalej", „czuję się zagubiony" | skill **przewodnik** (front door) |
+| pierwszy kontakt / `@magent` (lub nadane imię, np. `@mirek`) sam albo z „od czego zacząć / co dalej / czuję się zagubiony / skonfiguruj" / `/start`, `/rozbudowa` | skill **przewodnik** (front door) |
 | `/rozbudowa` — chce dołożyć/skonfigurować (nauka firmy, głos, obszar, pliki) | skill **przewodnik** (tryb rozbudowy) |
 | `/praca` — chce działać tym, co jest (treść, analiza, problem) | skill **marketing** (tryb pracy) |
 | `/strategia` — co sprzedawać, w który segment wejść, czy pomysł się opłaca, czego zaniechać | skill **marketing** (moduł strategia) |
 | `/nauka-firmy` / „poznaj moją firmę" / puste `dane/` | komenda **/nauka-firmy** (krok rozbudowy) |
-| pisze `@marketing` (lub nadane imię operatora), albo prosi o marketing: plan, leady, kampania, treść, audyt, kanały | skill **marketing** |
+| `@magent` (lub nadane imię, np. `@mirek`) z prośbą marketingową — plan, leady, kampania, treść, audyt, kanały, pomiar — albo taka prośba bez wołania / `/praca` | skill **marketing** |
 | pisze `@copywriter`, „napisz w moim stylu", „odpowiedz za mnie", „przeredaguj" | skill **copywriter** |
 | `/sesja` | zmiana robocza: brief → praca → podsumowanie |
 | `/stan` | gdzie jest firma i jaki jest najlepszy ruch |

@@ -1,6 +1,6 @@
 # Profil firmy
 
-> Wypełnij albo napisz `@marketing` — operator poprowadzi Cię przez to. Braki zostaw puste, nie zmyślaj.
+> Wypełnij albo napisz `@magent` — operator poprowadzi Cię przez to. Braki zostaw puste, nie zmyślaj.
 
 - **Nazwa firmy / marka:** [brak danych — do uzupełnienia]
 - **Kto stoi za marką (osoba):** [brak danych]

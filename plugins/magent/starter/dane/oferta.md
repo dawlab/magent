@@ -1,6 +1,6 @@
 # Oferta
 
-> Wypełnij albo napisz `@marketing`. Jeśli masz wiele produktów, wypisz każdy.
+> Wypełnij albo napisz `@magent`. Jeśli masz wiele produktów, wypisz każdy.
 
 ## Produkt / usługa 1
 - **Nazwa:**

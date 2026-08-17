@@ -1,6 +1,6 @@
 ---
 name: przewodnik
-description: Przewodnik MarketingAgent — prowadzi właściciela za rękę i pilnuje, żeby nigdy nie czuł się zagubiony. Front door systemu i tryb ROZBUDOWY (konfiguracja: nauka firmy, rozwój głosu, dokładanie i strojenie obszarów, uzupełnianie plików). Aktywuj gdy użytkownik pisze @magent, /start, „od czego zacząć", „co dalej", „pomóż skonfigurować", „czuję się zagubiony", albo przy pierwszym kontakcie / pustych danych. Praca (tworzenie treści, analiza) należy do skilla marketing — tam kieruję, gdy user chce działać.
+description: Przewodnik MarketingAgent — prowadzi właściciela za rękę i pilnuje, żeby nigdy nie czuł się zagubiony. Front door systemu i tryb ROZBUDOWY (konfiguracja: nauka firmy, rozwój głosu, dokładanie i strojenie obszarów, uzupełnianie plików). Aktywuj gdy użytkownik pisze @magent (lub nadane imię, np. @mirek) sam albo z „od czego zacząć", „co dalej", „pomóż skonfigurować", „czuję się zagubiony", a także /start, /rozbudowa, albo przy pierwszym kontakcie / pustych danych. Praca (tworzenie treści, analiza) należy do skilla marketing — tam kieruję, gdy user chce działać.
 ---
 
 # Przewodnik MarketingAgent

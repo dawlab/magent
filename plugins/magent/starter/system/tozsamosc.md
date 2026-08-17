@@ -1,7 +1,8 @@
-# Tożsamość operatora
+# Imię agenta
 
-> Operator marketingu może dostać własne imię — nadajesz je w pierwszej rozmowie
-> (albo w każdej chwili: „nazywaj się [imię]"). Domyślnie działa jako @marketing.
-> Operator czyta stąd `imie:` i tak się przedstawia.
+> Domyślnie wołasz agenta, pisząc **@magent**. Możesz nadać mu własne imię
+> („nazywaj się Mirek") — wtedy wołasz go **@mirek**. Nadajesz je w pierwszej
+> rozmowie albo w każdej chwili. Agent czyta stąd `imie:` i tak się przedstawia.
+> Zapisuj samo imię, bez znaku @.
 
-imie: @marketing
+imie: magent

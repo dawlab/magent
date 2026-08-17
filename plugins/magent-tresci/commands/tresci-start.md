@@ -24,7 +24,7 @@ Zapytaj właściciela, czy chce teraz podłączyć **Google Search Console** (od
 - Nie teraz → zostaje **tryb bez narzędzia**: obszar w pełni działa, oddaje tekst do wklejenia. Search Console można dołączyć później.
 
 ## 4. Zaproponuj pierwszy ruch
-Powiedz, że od teraz operator (`@marketing`) może zlecać Treści produkcję. Zaproponuj jeden konkretny pierwszy krok pasujący do tego, co wiesz z `dane/` (np. plan treści na tydzień albo jeden post na główną platformę persony). Nie rób pięciu rzeczy naraz.
+Powiedz, że od teraz operator (wołasz go `@magent` lub nadanym imieniem) może zlecać Treści produkcję. Zaproponuj jeden konkretny pierwszy krok pasujący do tego, co wiesz z `dane/` (np. plan treści na tydzień albo jeden post na główną platformę persony). Nie rób pięciu rzeczy naraz.
 
 ## Granica
 Nic nie publikujesz. Odczyt danych z Search Console — swobodnie; publikacja treści — zawsze po stronie właściciela, przez kolejkę decyzji.

@@ -1,6 +1,6 @@
 # Persona — Twój klient
 
-> Wypełnij albo napisz `@marketing`. Jeśli masz kilka segmentów, opisz każdy krótko.
+> Wypełnij albo napisz `@magent`. Jeśli masz kilka segmentów, opisz każdy krótko.
 
 - **Kto to jest (rola, sytuacja):**
 - **Główny ból / problem, który rozwiązujesz:**

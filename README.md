@@ -132,12 +132,12 @@ Z MarketingAgentem rozmawiasz, pisząc. Masz trzy sposoby:
 
 **Komendy zaczynające się od `/`.** Skróty do konkretnych zadań, na przykład `/start` albo `/stan`. Po wpisaniu ukośnika zobaczysz listę dostępnych.
 
-**Wywołania zaczynające się od `@`.** Kierują zadanie do konkretnego pomocnika:
-- `@marketing` — planowanie, pomysły, produkcja materiałów
-- `@copywriter` — nadanie tekstowi Twojego tonu
+**Wywołania zaczynające się od `@`.** Zwracasz się nimi do agenta albo do konkretnego pomocnika:
+- `@magent` — Twój agent. Tak zwracasz się do niego **w każdej sprawie**: plan, pomysł, treść, analiza, „od czego zacząć". Jeśli nadasz mu imię (np. Mirek), od tej pory wołasz go `@mirek`.
+- `@copywriter` — nadanie gotowemu tekstowi Twojego tonu
 - `@social` — przygotowanie postów (jeśli masz dodany obszar Social)
 
-Nie musisz pamiętać całej listy. `/start` zawsze podpowie, co jest teraz sensowne.
+Nie musisz pamiętać całej listy. Do wszystkiego wystarczy `@magent` (albo jego imię), a `/start` w każdej chwili podpowie, co jest teraz sensowne.
 
 ---
 
@@ -267,7 +267,7 @@ Każdy obszar działa również bez podłączonych narzędzi zewnętrznych — w
 
 | Wpisujesz | Efekt |
 |---|---|
-| `@marketing …` | Planowanie i produkcja materiałów |
+| `@magent …` (lub nadane imię, np. `@mirek`) | Twój agent — do wszystkiego: plan, treść, analiza |
 | `@copywriter …` | Przepisanie tekstu Twoim tonem |
 | `@social …` | Przygotowanie materiału na social media |
 

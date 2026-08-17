@@ -16,7 +16,7 @@ Ostatnia aktualizacja: [—]
 - Najbliższy przegląd:
 -->
 
-Brak — jeszcze nie skonfigurowano. Napisz `@marketing`, uruchomię namierzanie.
+Brak — jeszcze nie skonfigurowano. Napisz `@magent`, uruchomię namierzanie.
 
 ## Śpią (z warunkiem włączenia)
 - [obszar / kanał] — włączam, gdy: [co musi się wydarzyć]

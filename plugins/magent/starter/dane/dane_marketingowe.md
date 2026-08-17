@@ -1,6 +1,6 @@
 # Dane marketingowe
 
-> Najszybciej wypełnisz to przez `@marketing` (krótki wywiad startowy). Braki zostaw puste.
+> Najszybciej wypełnisz to przez `@magent` (krótki wywiad startowy). Braki zostaw puste.
 
 Data utworzenia: [—]
 Ostatnia aktualizacja: [—]

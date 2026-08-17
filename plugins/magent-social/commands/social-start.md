@@ -63,7 +63,7 @@ Jeśli właściciel wybierze Canvę → skieruj do `POLACZENIA.md` (dodanie serw
 **Wideo** (wspominaj krótko, bez naciskania): domyślnie darmowy **storyboard** do nagrania telefonem — dla solo często lepszy niż wideo AI. Kto chce generować, może później podłączyć generator: **Invideo** (skrypt → gotowe wideo social, darmowy plan na start ze znakiem wodnym) albo **Higgsfield** (surowe klipy AI, ~150 darmowych kredytów/mies.). Szczegóły i uczciwe ograniczenia w `POLACZENIA.md`. Nie proponuj generatora z automatu — storyboard wystarcza na start.
 
 ## 5. Zaproponuj pierwszy ruch
-Powiedz, że od teraz operator (`@marketing`) może zlecić Social złożenie posta. Zaproponuj jeden konkretny pierwszy krok pasujący do tego, co wiesz z `dane/` — np. jeden kompletny post (tekst + grafika) na główną platformę persony, z recyklingu ostatniej treści z `outputs/tresci/`, jeśli jest. Nie rób pięciu rzeczy naraz.
+Powiedz, że od teraz operator (wołasz go `@magent` lub nadanym imieniem) może zlecić Social złożenie posta. Zaproponuj jeden konkretny pierwszy krok pasujący do tego, co wiesz z `dane/` — np. jeden kompletny post (tekst + grafika) na główną platformę persony, z recyklingu ostatniej treści z `outputs/tresci/`, jeśli jest. Nie rób pięciu rzeczy naraz.
 
 ## Granica (powiedz to wprost)
 Odczyt statystyk z zernio — swobodnie. **Publikacja i planowanie — zawsze przez kolejkę decyzji**: agent składa post gotowy do kliknięcia, a publikujesz Ty (klik w panelu zernio) albo autoryzujesz operatora jednym poleceniem na jeden konkretny post. Bez autopilota, bez publikacji serii na jedno „ok".

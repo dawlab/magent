@@ -14,6 +14,6 @@ To jedyny katalog, który wypełniasz sam. MarketingAgent opiera KAŻDĄ rekomen
 
 ## Jak wypełnić
 
-Najprościej: uruchom Claude Code w tym folderze i napisz **`@marketing`**. Operator sprawdzi, czego brakuje, i przeprowadzi Cię przez krótki wywiad startowy (uzupełnia `dane_marketingowe.md`; skill `głos` łapie Twój ton z prawdziwych tekstów i wypełnia `glos_styl.md`).
+Najprościej: uruchom Claude Code w tym folderze i napisz **`@magent`**. Operator sprawdzi, czego brakuje, i przeprowadzi Cię przez krótki wywiad startowy (uzupełnia `dane_marketingowe.md`; skill `copywriter` łapie Twój ton z prawdziwych tekstów i wypełnia `glos_styl.md`).
 
 Nie musisz znać marketingowego żargonu. Pliki są puste celowo — nic nie jest zmyślone za Ciebie.
