@@ -5,77 +5,77 @@
   },
   "metadata": {
     "description": "MarketingAgent — system marketingowy dla solo-przedsiębiorcy. Instalowany etapami: najpierw rdzeń (@copywriter, nauka firmy, operator), potem obszary dokładane w trakcie kursu.",
-    "version": "0.2.0"
+    "version": "0.2.1"
   },
   "plugins": [
     {
       "name": "magent",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Minimum po zakupie: @copywriter, nauka firmy i operator marketingu (mózg pętli Namierz→Zrób→Zmierz). Bez obszarów — te dokładasz osobno w kolejnych modułach.",
       "source": {
         "source": "archive",
-        "url": "https://dawlab.github.io/magent/paczki/magent-0.2.0.zip",
-        "sha256": "f9ca16039b3967b7849c90a4629219ab45455d410cc9efd9159503e5af0906cf"
+        "url": "https://dawlab.github.io/magent/paczki/magent-0.2.1.zip",
+        "sha256": "c4dcab0a53d8a617bdd89bf18a36e8dff9963a23a3c0e8ceae5ac63a50877f07"
       }
     },
     {
       "name": "magent-tresci",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Obszar Treści: treści organiczne (posty, wideo, plan treści, copy profilu/strony). Tryb bez narzędzia lub z Search Console.",
       "source": {
         "source": "archive",
-        "url": "https://dawlab.github.io/magent/paczki/magent-tresci-0.2.0.zip",
-        "sha256": "9faf6e4a77a9445bb7c89fcc5c15ffb6063b69b4e4f017a68fdf8240d4a3baa5"
+        "url": "https://dawlab.github.io/magent/paczki/magent-tresci-0.2.1.zip",
+        "sha256": "e77b28a67683a8a69981ea3f91549c525e6a8e873c11216b79d0805b86b11b70"
       }
     },
     {
       "name": "magent-opinie",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Obszar Opinie: dowód i zaufanie (prośby o opinię, testimoniale i case z surowca, ekspozycja dowodu). Tryb bez narzędzia lub z Google Business Profile.",
       "source": {
         "source": "archive",
-        "url": "https://dawlab.github.io/magent/paczki/magent-opinie-0.2.0.zip",
-        "sha256": "58bca496c26191ad7cd102810de5634d173db38bb1acddd5119f58fcea28ef0e"
+        "url": "https://dawlab.github.io/magent/paczki/magent-opinie-0.2.1.zip",
+        "sha256": "fb69d1c7137d67ef2aa3e8aecbb7f4bac60a9af038cf40a1204bde26774f7fca"
       }
     },
     {
       "name": "magent-sprzedaz",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Obszar Sprzedaż: lead magnet i landing, sekwencje maili, newsletter, powroty, DM. Domyślnie tryb bez API; konektor mailingowy na później.",
       "source": {
         "source": "archive",
-        "url": "https://dawlab.github.io/magent/paczki/magent-sprzedaz-0.2.0.zip",
-        "sha256": "8e7919bb7bf9ba66a4044e527e4689fe5144216566697520cd538d98fb395ec3"
+        "url": "https://dawlab.github.io/magent/paczki/magent-sprzedaz-0.2.1.zip",
+        "sha256": "508555c74835a40ba10e733a5b87b9f29704299974df12d41dfea82624730916"
       }
     },
     {
       "name": "magent-polecenia",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Obszar Polecenia: polecenia i partnerstwa (mechanika, skrypty, wiadomości partnerskie, briefy współpracy). Obszar bez narzędzia zewnętrznego.",
       "source": {
         "source": "archive",
-        "url": "https://dawlab.github.io/magent/paczki/magent-polecenia-0.2.0.zip",
-        "sha256": "db51fb86faee97778788edbf0d16c776701d6ee8fe72acfad72a5256518a72e1"
+        "url": "https://dawlab.github.io/magent/paczki/magent-polecenia-0.2.1.zip",
+        "sha256": "bddaf94914009cd848f7c30ef4305a0c98eece8f51fc7cb232c501996b09212a"
       }
     },
     {
       "name": "magent-reklama",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Obszar Reklama płatna (warunkowy): copy, brief kreatywny, plan kampanii i budżetu testowego. Design-only; tryb bez narzędzia lub z Google Ads + Search Console.",
       "source": {
         "source": "archive",
-        "url": "https://dawlab.github.io/magent/paczki/magent-reklama-0.2.0.zip",
-        "sha256": "fab3e5e12a614da2983a1d9a74916a290124736763ef41639e55e2178e19aa17"
+        "url": "https://dawlab.github.io/magent/paczki/magent-reklama-0.2.1.zip",
+        "sha256": "46c0fd28b53c95c99a082ab5f650e19a22e3f3ee2e81ad45ea1ccf633e781ca9"
       }
     },
     {
       "name": "magent-social",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "Obszar Social: dystrybucja i publikacja. Składa kompletny post (tekst + grafika w stylu marki) i publikuje/planuje przez zernio — za bramą decyzji. Grafiki darmowo: Canva (konektor MCP, darmowe konto) albo szablony HTML/SVG. Tryb bez narzędzia lub z zernio.",
       "source": {
         "source": "archive",
-        "url": "https://dawlab.github.io/magent/paczki/magent-social-0.2.0.zip",
-        "sha256": "40d8108299f020b2906a3b534017e130bf00932afe661f187c8e7ffbf00a5250"
+        "url": "https://dawlab.github.io/magent/paczki/magent-social-0.2.1.zip",
+        "sha256": "5f34601e88267d397ce52be9c5de73b43f09164ef95153ad0445be5a7cfa550e"
       }
     }
   ]

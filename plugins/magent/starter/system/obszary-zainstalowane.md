@@ -4,7 +4,7 @@
 > Operator czyta ten plik, żeby wiedzieć, co może zlecić. Czego tu nie ma — tego nie oferuje jako gotowego, tylko mówi „to dokładamy w module kursu".
 > To NIE to samo co `system/aktywne-obszary.md`: tam jest wybór strategiczny (co gramy teraz, 1–2), tu — co w ogóle mamy do dyspozycji. Aktywne ⊆ zainstalowane.
 >
-> Wpis dopisuje komenda startowa obszaru (np. `/tresci-start`), nie właściciel ręcznie.
+> Wpis dopisuje komenda startowa obszaru (np. `/magent-tresci:start`), nie właściciel ręcznie.
 
 Ostatnia aktualizacja: [—]
 
@@ -16,4 +16,4 @@ Ostatnia aktualizacja: [—]
 - **[Obszar]** (plugin `magent-xxx`) — zainstalowany [data], skonfigurowany [tak/nie]. Narzędzie: [brak / nazwa konektora + status].
 -->
 
-Brak zainstalowanych obszarów. Dodaj pierwszy w module kursu — po instalacji pluginu uruchom jego komendę startową (np. `/tresci-start`).
+Brak zainstalowanych obszarów. Dodaj pierwszy w module kursu — po instalacji pluginu uruchom jego komendę startową (np. `/magent-tresci:start`).

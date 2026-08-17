@@ -1,6 +1,6 @@
 {
   "name": "magent-polecenia",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Obszar Polecenia dla MarketingAgent — pozyskiwanie przez cudze zaufanie: mechanika i skrypty poleceń, dobór i wiadomości partnerskie, briefy współpracy z twórcami. Obszar bez narzędzia zewnętrznego. Wymaga magent.",
   "author": { "name": "MarketingAgent" }
 }

@@ -1,6 +1,6 @@
 {
   "name": "magent-tresci",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Obszar Treści dla MarketingAgent — produkcja treści organicznych. Tryb bez narzędzia (tekst do wklejenia) albo z podłączonym Search Console (odczyt fraz i wyników). Wymaga zainstalowanego magent.",
   "author": { "name": "MarketingAgent" }
 }

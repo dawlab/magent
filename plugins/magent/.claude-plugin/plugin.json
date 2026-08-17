@@ -1,6 +1,6 @@
 {
   "name": "magent",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Rdzeń MarketingAgent: @copywriter, nauka firmy i operator marketingu z pętlą Namierz→Zrób→Zmierz. Obszary-ręce (Treści, Opinie, Sprzedaż, Polecenia, Reklama) dokładane jako osobne pluginy.",
   "author": { "name": "MarketingAgent" }
 }

@@ -36,7 +36,7 @@ Co jest realnie zainstalowane i skonfigurowane, mówi **`system/obszary-zainstal
 | `@magent` (lub nadane imię, np. `@mirek`) z prośbą marketingową — plan, leady, kampania, treść, audyt, kanały, pomiar — albo taka prośba bez wołania / `/praca` | skill **marketing** |
 | pisze `@copywriter`, „napisz w moim stylu", „odpowiedz za mnie", „przeredaguj" | skill **copywriter** |
 | pisze `@social`, „złóż post", „grafika do posta", „opublikuj/zaplanuj na [kanał]", „rozłóż to na social" | skill **marketing** → deleguje do **obszar-social** (jeśli zainstalowany; publikacja za bramą decyzji) |
-| komenda startowa obszaru Social: `/social-start` | włączenie i konfiguracja świeżo zainstalowanego obszaru Social |
+| komenda startowa obszaru Social: `/magent-social:start` | włączenie i konfiguracja świeżo zainstalowanego obszaru Social |
 | `/sesja` | zmiana robocza: brief → praca → podsumowanie |
 | `/stan` | gdzie jest firma i jaki jest najlepszy ruch |
 | `/ruch` | jeden najlepszy następny ruch (dla zabieganych) |
@@ -45,7 +45,7 @@ Co jest realnie zainstalowane i skonfigurowane, mówi **`system/obszary-zainstal
 | `/strona` [cel] — wygeneruj stronę-wizytówkę (one-pager) w stylu marki + darmowy deploy (po Twojej stronie) | komenda **/strona** (rdzeń) |
 | `/checklista` [strona\|publikacja\|oferta] — audyt na realnym materiale: 3–5 priorytetów | komenda **/checklista** → skill **marketing** (moduł checklisty) |
 | `/korekta` [reguła] / „nie tak", „od teraz rób X", „to źle robisz" | operator utrwala zasadę w `system/korekty.md` (samodoskonalenie) |
-| komenda startowa obszaru (np. `/tresci-start`) | włączenie i konfiguracja świeżo zainstalowanego obszaru |
+| komenda startowa obszaru (np. `/magent-tresci:start`) | włączenie i konfiguracja świeżo zainstalowanego obszaru |
 | `/magent-setup` [reset] — rozstawienie czystej instancji albo reset do stanu fabrycznego | komenda **/magent-setup** (rdzeń) |
 | `/aktualizuj` — pobierz najnowszą wersję rdzenia i wszystkich zainstalowanych obszarów naraz, potem restart | komenda **/aktualizuj** (rdzeń) |
 

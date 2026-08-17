@@ -17,7 +17,7 @@ Ten obszar z narzędzia **wyłącznie czyta**. Nie zmienia ustawień, nie wysył
 ### Jak podłączyć (do pokazania na wideo)
 1. Dodaj konektor Google / Search Console w swoim kliencie (katalog konektorów albo wpis MCP).
 2. Zaloguj się i autoryzuj **dostęp tylko do odczytu** do właściwej usługi (domeny) w Search Console.
-3. Wróć do MarketingAgent i uruchom `/tresci-start` ponownie albo powiedz operatorowi „podłączyłem Search Console" — zaktualizuje status w `system/obszary-zainstalowane.md` na „podłączone".
+3. Wróć do MarketingAgent i uruchom `/magent-tresci:start` ponownie albo powiedz operatorowi „podłączyłem Search Console" — zaktualizuje status w `system/obszary-zainstalowane.md` na „podłączone".
 4. Od tej pory przy planie treści operator może poprosić Treści o oparcie tematów na realnych frazach.
 
 ### Techniczne

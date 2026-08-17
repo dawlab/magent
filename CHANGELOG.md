@@ -9,7 +9,7 @@ Najnowsze na górze. Po aktualizacji agent pokaże Ci te zmiany przy `/start`.
 - **Nowe komendy:** `/strona` buduje stronę-wizytówkę w stylu Twojej marki, a `/checklista` ocenia Twoją stronę, ofertę albo gotową treść i wskazuje 3–5 najważniejszych poprawek.
 - **Jedno wejście do agenta.** Zwracasz się do niego, pisząc `@magent` (albo nadanym imieniem, np. `@mirek`) — do wszystkiego. Nie musisz już pamiętać osobnego `@marketing`.
 - **Aktualizacja jednym poleceniem:** `/aktualizuj` pobiera najnowszą wersję rdzenia i wszystkich Twoich obszarów naraz.
-- **Krótsze nazwy komend:** `magent:start`, `magent:audyt` zamiast długich `magent-rdzen:…`.
+- **Krótsze, spójne nazwy komend:** `magent:start`, `magent:audyt`, a włączanie obszarów przez `magent-tresci:start` (zamiast długich `magent-rdzen:…` i podwójnego `magent-tresci:tresci-start`).
 - **`@głos` nazywa się teraz `@copywriter`** (nadaje tekstowi Twój ton — bez zmiany działania).
 - Pełniejsze opisy obszarów i uproszczona instrukcja.
 

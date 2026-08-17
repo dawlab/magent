@@ -16,7 +16,7 @@ Obszar **wyłącznie czyta** opinie. Nie odpowiada na opinie, nie publikuje, nie
 ### Jak podłączyć (do pokazania na wideo)
 1. Dodaj konektor Google / Business Profile w swoim kliencie.
 2. Autoryzuj **dostęp tylko do odczytu** do właściwej wizytówki (lokalizacji).
-3. Wróć do MarketingAgent, uruchom `/opinie-start` ponownie albo powiedz operatorowi „podłączyłem opinie Google" — zaktualizuje status w `system/obszary-zainstalowane.md` na „podłączone".
+3. Wróć do MarketingAgent, uruchom `/magent-opinie:start` ponownie albo powiedz operatorowi „podłączyłem opinie Google" — zaktualizuje status w `system/obszary-zainstalowane.md` na „podłączone".
 
 ### Techniczne
 Gdy jest konkretny serwer MCP do Google Business Profile, jego deklaracja trafia do `.mcp.json` w katalogu tego pluginu. Wzorzec: `connectors.example.json`. Do tego czasu obszar działa w trybie bez narzędzia — nic się nie psuje.

@@ -180,7 +180,7 @@ Dla każdego obszaru wklej obie linijki w oknie Claude Code, jedna po drugiej. P
 
 ```
 /plugin install magent-tresci@magent
-/tresci-start
+/magent-tresci:start
 ```
 
 Produkuje treści, które sprawiają, że kupujący Cię znajdą i zobaczą. Bierze jeden temat i rozkłada go na wiele formatów: post na główną platformę, scenariusz krótkiego wideo, plan treści na tydzień, zajawkę do maila. Do tego pisze opis Twojego profilu Google i strony, dłuższe teksty pod wyszukiwarki oraz treści przygotowane tak, by cytowały je modele AI (ChatGPT, Perplexity). Dobiera temat z realnego problemu Twojego klienta, a nie z sufitu — jeśli podłączysz Google Search Console, opiera go dodatkowo na tym, czego ludzie faktycznie szukają. To zwykle pierwszy obszar, od którego się zaczyna.
@@ -189,7 +189,7 @@ Produkuje treści, które sprawiają, że kupujący Cię znajdą i zobaczą. Bie
 
 ```
 /plugin install magent-opinie@magent
-/opinie-start
+/magent-opinie:start
 ```
 
 Zamienia zadowolonych klientów w dowód, który przekonuje kolejnych. Podpowiada, kiedy i jak poprosić o opinię, żeby ludzie faktycznie ją zostawiali, i daje gotowe szablony próśb. Surową wypowiedź klienta — nawet jedno zdanie z SMS-a — przerabia w dopracowany testimonial, historię „przed i po" albo mini-case do pokazania na stronie i w treściach. Pracuje wyłącznie na materiale, który mu dasz — nie wymyśla opinii. Włączasz go, gdy masz już pierwszych zadowolonych klientów, choćby kilku.
@@ -198,7 +198,7 @@ Zamienia zadowolonych klientów w dowód, który przekonuje kolejnych. Podpowiad
 
 ```
 /plugin install magent-sprzedaz@magent
-/sprzedaz-start
+/magent-sprzedaz:start
 ```
 
 Buduje drogę od „ktoś zajrzał" do „ktoś kupił". Tworzy lead magnet (darmowy pierwszy krok: poradnik, checklistę, mini-narzędzie) i tekst strony zapisu, na której zbierasz kontakty. Pisze sekwencje maili powitalnych i newsletter, które budują zaufanie i prowadzą do oferty, a także wiadomości odzyskujące dawnych, uśpionych klientów i skrypty rozmów w wiadomościach prywatnych. Oddaje gotowy tekst do wklejenia; wysyłkę zawsze zatwierdzasz Ty. Sensowny, gdy masz choć trochę ruchu do przechwycenia.
@@ -207,7 +207,7 @@ Buduje drogę od „ktoś zajrzał" do „ktoś kupił". Tworzy lead magnet (dar
 
 ```
 /plugin install magent-polecenia@magent
-/polecenia-start
+/magent-polecenia:start
 ```
 
 Uruchamia najtańsze źródło klientów: cudze zaufanie. Układa prosty mechanizm poleceń — kiedy i jak poprosić, jaka drobna zachęta, jak podziękować — i daje gotowe skrypty rozmów z klientami. Pomaga też dobrać partnerów, którzy mają tych samych odbiorców co Ty bez konkurowania o ofertę, pisze wiadomości do nich i briefy współpracy, w tym akcje co-marketingowe za zero złotych. „Kto" — których klientów i partnerów zaczepić — wskazujesz Ty; obszar daje system i teksty. Dobry, gdy masz zadowolonych klientów albo partnera z tą samą grupą.
@@ -216,7 +216,7 @@ Uruchamia najtańsze źródło klientów: cudze zaufanie. Układa prosty mechani
 
 ```
 /plugin install magent-social@magent
-/social-start
+/magent-social:start
 ```
 
 Zamienia gotowy przekaz w kompletny, publikowalny post pod konkretny kanał. Składa trzy rzeczy naraz: tekst dopasowany do platformy, grafikę w kolorystyce Twojej marki (za darmo, bez osobnego narzędzia) i — gdy trzeba — scenariusz krótkiego wideo. Jeśli podłączysz publikowanie, przygotowuje wpis gotowy do wysłania na 15+ platform. Publikacja odbywa się wyłącznie po Twojej akceptacji — obszar niczego nie wrzuca w świat sam. To ręka dystrybucyjna: Treści dają temat, Social ubiera go w post.
@@ -225,7 +225,7 @@ Zamienia gotowy przekaz w kompletny, publikowalny post pod konkretny kanał. Sk�
 
 ```
 /plugin install magent-reklama@magent
-/reklama-start
+/magent-reklama:start
 ```
 
 Przygotowuje reklamę, gdy przychodzi czas ją włączyć — a nie wcześniej. Pisze teksty reklam i warianty nagłówków, brief kreatywny, sugestie grupy docelowej oraz strukturę kampanii z budżetem testowym i jasnym progiem „działa / nie działa". Świadomie zatrzymuje się na projekcie: samo założenie i doglądanie kampanii w panelu reklamowym robisz Ty. Obszar jest domyślnie uśpiony i ma sens dopiero wtedy, gdy masz budżet oraz coś, co już przynosi klientów za darmo — reklama skaluje to, co działa, nie ratuje tego, co nie.

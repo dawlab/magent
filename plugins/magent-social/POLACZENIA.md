@@ -6,7 +6,7 @@ Ten obszar działa w **trzech warstwach**. Warstwa bez narzędzia jest domyślna
 Obszar składa kompletny post: tekst natywny dla kanału + grafikę jako **szablon HTML/SVG w stylu marki** + (opcjonalnie) storyboard wideo. Wszystko do ręcznego wrzucenia przez właściciela. Nic nie ciągnie z zewnątrz, nic nie publikuje. To pełnoprawny tryb pracy — z niego startuje każdy klient.
 
 Żeby grafika trzymała styl marki, właściciel dokłada do `dane/`:
-- **`dane/marka_wizualna.md`** — paleta (dokładne heksy), fonty, ton wizualny, proporcje. Szkielet tworzy `/social-start`.
+- **`dane/marka_wizualna.md`** — paleta (dokładne heksy), fonty, ton wizualny, proporcje. Szkielet tworzy `/magent-social:start`.
 - opcjonalnie: **brand book** (PDF/obraz), **logo**, **przykłady dawnych, udanych postów** — im więcej kontekstu, tym wierniej trzymamy „głos wizualny" marki (analogicznie do `dane/glos_styl.md` dla tekstu).
 Bez tych plików obszar robi neutralny, czytelny szablon i nazywa brak — nie zmyśla kolorów marki.
 
@@ -20,7 +20,7 @@ Bez tych plików obszar robi neutralny, czytelny szablon i nazywa brak — nie z
 2. Dodaj serwer MCP zernio do swojego klienta Claude:
    - **Claude web/desktop**: Ustawienia → Konektory → dodaj własny konektor → `https://mcp.zernio.com/mcp` → zaloguj się przez OAuth (rekomendowane — bez wklejania kluczy).
    - **Claude Code**: zadeklaruj serwer w `.mcp.json` tego pluginu (wzorzec: `connectors.example.json` obok tego pliku). Wariant OAuth (rekomendowany) albo Bearer (klucz z `zernio.com/dashboard/api-keys`).
-3. Wróć do MarketingAgent i uruchom `/social-start` ponownie albo powiedz operatorowi „podłączyłem zernio" — zaktualizuje status w `system/obszary-zainstalowane.md` na „podłączone".
+3. Wróć do MarketingAgent i uruchom `/magent-social:start` ponownie albo powiedz operatorowi „podłączyłem zernio" — zaktualizuje status w `system/obszary-zainstalowane.md` na „podłączone".
 4. Od tej pory operator może przygotować post w zernio i **zaplanować** go — ale publikacja idzie przez bramę decyzji.
 
 ### Techniczne

@@ -16,7 +16,7 @@ Obszar **wyłącznie czyta** metryki. **Nie zakłada kampanii, nie zmienia budż
 ### Jak podłączyć (do pokazania na wideo)
 1. Dodaj konektory Google Ads i/lub Search Console w swoim kliencie.
 2. Autoryzuj **dostęp tylko do odczytu** do właściwego konta reklamowego / usługi.
-3. Wróć do MarketingAgent, uruchom `/reklama-start` ponownie albo powiedz operatorowi „podłączyłem Google Ads" — zaktualizuje status w `system/obszary-zainstalowane.md` na „podłączone".
+3. Wróć do MarketingAgent, uruchom `/magent-reklama:start` ponownie albo powiedz operatorowi „podłączyłem Google Ads" — zaktualizuje status w `system/obszary-zainstalowane.md` na „podłączone".
 
 ### Techniczne
 Gdy są konkretne serwery MCP do Google Ads / Search Console, ich deklaracje trafiają do `.mcp.json` w katalogu tego pluginu. Wzorzec: `connectors.example.json`. Do tego czasu obszar działa w trybie bez narzędzia — nic się nie psuje.

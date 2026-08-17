@@ -8,7 +8,7 @@ Prowadź właściciela za rękę przez budowę narzędzia — **jeden krok naraz
 
 1. **Nauka firmy** (`/nauka-firmy`) — jeśli `dane/` puste lub niepełne.
 2. **Rozwój głosu** (skill `copywriter`, „złapanie stylu") — jeśli `dane/glos_styl.md` pusty.
-3. **Dołożenie obszaru** — instalacja pluginu `magent-...` + komenda startowa (`/tresci-start` itd.). Jeśli obszar zainstalowany, ale niewłączony → kieruj do jego komendy startowej.
+3. **Dołożenie obszaru** — instalacja pluginu `magent-...` + komenda startowa (`/magent-tresci:start` itd.). Jeśli obszar zainstalowany, ale niewłączony → kieruj do jego komendy startowej.
 4. **Strojenie obszaru** — podłączenie narzędzia wg `POLACZENIA.md` albo uzupełnienie danych.
 5. **Rozbudowa plików** — dopisywanie do `dane/`/`system/` sekcjami z datą.
 
