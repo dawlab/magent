@@ -54,6 +54,15 @@ def spakuj_wtyczke(katalog: Path, wersja: str) -> Path:
 
 
 def main() -> None:
+    # Notatka „co nowego" (CHANGELOG.md) jedzie z rdzeniem, żeby przewodnik mógł ją
+    # pokazać klientowi po aktualizacji. Kopiujemy ją do skilla przewodnik przed pakowaniem,
+    # żeby był jeden punkt prawdy (CHANGELOG.md w katalogu głównym).
+    changelog = KATALOG_REPO / "CHANGELOG.md"
+    if changelog.exists():
+        cel = KATALOG_WTYCZEK / "magent" / "skills" / "przewodnik" / "co-nowego.md"
+        shutil.copyfile(changelog, cel)
+        print(f"  ✓ co-nowego.md ← CHANGELOG.md")
+
     zrodlowy_katalog = KATALOG_REPO / ".claude-plugin" / "marketplace.json"
     katalog_zrodlowy = json.loads(zrodlowy_katalog.read_text(encoding="utf-8"))
 

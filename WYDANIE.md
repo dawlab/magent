@@ -36,16 +36,17 @@ GitHub Pages serwuje katalog `docs/` z gałęzi `main`. Każdy `git push` aktual
 2. **Podnieś numer wersji** w obu miejscach dla każdej zmienionej wtyczki:
    - `plugins/magent-X/.claude-plugin/plugin.json` → pole `version`
    - `.claude-plugin/marketplace.json` → pole `version` przy tej wtyczce
-3. **Zaktualizuj README.md**, jeśli zmiana dotyczy czegoś, co widzi użytkownik: nowa komenda, nowy obszar, zmiana instalacji.
-4. **Zbuduj paczki**:
+3. **Dopisz wpis do `CHANGELOG.md`** — nowy nagłówek `## X.Y.Z` na górze, w języku klienta (co się zmieniło z jego perspektywy). To jest notatka „co nowego", którą agent pokaże właścicielowi po aktualizacji przy `/start`. `publikuj.py` kopiuje ją do rdzenia automatycznie.
+4. **Zaktualizuj README.md**, jeśli zmiana dotyczy czegoś, co widzi użytkownik: nowa komenda, nowy obszar, zmiana instalacji.
+5. **Zbuduj paczki**:
    ```bash
    python3 publikuj.py
    ```
-5. **Wyślij**:
+6. **Wyślij**:
    ```bash
    git add -A && git commit -m "wydanie 0.2.0" && git push
    ```
-6. **Powiadom klientów** — mailem albo w kursie. Aktualizacja nie instaluje się sama; klient wpisuje `/plugin marketplace update magent`, potem `/plugin update magent@magent` i uruchamia Claude Code ponownie.
+7. **Powiadom klientów** — mailem albo w kursie. Aktualizacja nie instaluje się sama; klient wpisuje `/plugin marketplace update magent`, potem `/plugin update magent@magent` (oraz zainstalowane obszary) i uruchamia Claude Code ponownie.
 
 ### Pułapka: numer wersji jest sygnałem aktualizacji
 

@@ -1,6 +1,6 @@
 {
   "name": "magent-sprzedaz",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Obszar Sprzedaż dla MarketingAgent — lead magnet i landing, sekwencje maili i newsletter, powroty klientów, skrypty DM. Domyślnie tryb bez API (tekst do wklejenia); konektor mailingowy na później. Wymaga magent.",
   "author": { "name": "MarketingAgent" }
 }
