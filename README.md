@@ -400,18 +400,22 @@ Dwóch firm nie należy prowadzić w jednym folderze.
 
 MarketingAgent bywa rozwijany — dochodzą nowe możliwości i usprawnienia. Nowe wersje publikujemy pod tym samym adresem, z którego instalowałeś agenta. Nic nie jest instalowane na Twoim komputerze bez Twojej wiedzy.
 
-O każdej aktualizacji informujemy mailem i w kursie. Żeby ją pobrać, wpisz w oknie Claude Code:
+O każdej aktualizacji informujemy mailem i w kursie. Najprościej wpisz w oknie Claude Code:
+
+```
+/aktualizuj
+```
+
+Agent pobierze najnowszą wersję rdzenia i wszystkich Twoich obszarów naraz. Następnie **uruchom Claude Code ponownie** — a przy `/start` zobaczysz, co się zmieniło. Dane Twojej firmy pozostają bez zmian; aktualizacja obejmuje wyłącznie samego agenta.
+
+Jeśli wolisz zrobić to ręcznie (albo `/aktualizuj` z jakiegoś powodu nie zadziała), wpisz po kolei:
 
 ```
 /plugin marketplace update magent
-```
-```
 /plugin update magent@magent
 ```
 
-Oraz to samo dla dodanych obszarów, na przykład `/plugin update magent-tresci@magent`.
-
-Następnie uruchom Claude Code ponownie. Dane Twojej firmy pozostają bez zmian — aktualizacja obejmuje wyłącznie samego agenta.
+oraz to samo dla każdego dodanego obszaru, na przykład `/plugin update magent-tresci@magent`. Potem uruchom Claude Code ponownie.
 
 ---
 

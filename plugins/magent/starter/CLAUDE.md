@@ -42,6 +42,7 @@ Co jest realnie zainstalowane i skonfigurowane, mówi **`system/obszary-zainstal
 | `/korekta` [reguła] / „nie tak", „od teraz rób X", „to źle robisz" | operator utrwala zasadę w `system/korekty.md` (samodoskonalenie) |
 | komenda startowa obszaru (np. `/tresci-start`) | włączenie i konfiguracja świeżo zainstalowanego obszaru |
 | `/magent-setup` [reset] — rozstawienie czystej instancji albo reset do stanu fabrycznego | komenda **/magent-setup** (rdzeń) |
+| `/aktualizuj` — pobierz najnowszą wersję rdzenia i wszystkich zainstalowanych obszarów naraz, potem restart | komenda **/aktualizuj** (rdzeń) |
 
 Skille, komendy i podagenci są w pluginach (`plugins/magent-*`), nie w `.claude/`. Nie kopiuj ich treści tutaj. Który obszar realnie masz — patrz `system/obszary-zainstalowane.md`.
 
