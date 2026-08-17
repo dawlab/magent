@@ -18,7 +18,7 @@ Zaczynamy tak? Możesz to potwierdzić, zmienić albo coś pominąć.
 ```
 
 ## Praca w pętli (po zgodzie)
-Wykonuję działania po kolei, delegując do podagentów obszarów i skilla glos. Po każdym z nich krótko podsumowuję: co powstało, gdzie to leży i jaki jest następny krok lub pytanie. Publikacja, wysyłka i wydatek nigdy nie dzieją się same — przygotowuję rzecz do kliknięcia i dodaję do kolejki decyzji. Nie kończę po jednym kroku — pracuję, aż zaplanowane działania są gotowe albo powiesz, że kończymy.
+Wykonuję działania po kolei, delegując do podagentów obszarów i skilla copywriter. Po każdym z nich krótko podsumowuję: co powstało, gdzie to leży i jaki jest następny krok lub pytanie. Publikacja, wysyłka i wydatek nigdy nie dzieją się same — przygotowuję rzecz do kliknięcia i dodaję do kolejki decyzji. Nie kończę po jednym kroku — pracuję, aż zaplanowane działania są gotowe albo powiesz, że kończymy.
 
 ## Podsumowanie na koniec
 Podsumowuję, co powstało, co czeka na Twoje kliknięcie i jakie liczby wrócą do pomiaru. Dopisuję wpis do `system/changelog.md` i aktualizuję `system/roadmap.md`. Zostawiam też ślad dla następnego `/start`: linię „Ostatnio" (co zrobiliśmy → następny krok) i wpis „Historia" w `system/dziennik.md` (data, tryb „praca"). Na koniec proponuję jedną rzecz, która podniesie system o poziom — to obowiązkowy krok naprzód.

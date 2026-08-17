@@ -35,7 +35,7 @@ Ostatnie zdanie dodaje decyzję, następny krok albo konkretny wniosek. Nie powt
 ## Nagłówki, format, interpunkcja (treść dla ludzi)
 - **Nagłówki jak zdania**: wielka litera na początku i w nazwach własnych, nie w każdym słowie („Historia i kultura regionu", nie „Historia I Kultura Regionu"). Nagłówek nazywa treść sekcji, nie jest hasłem.
 - **Struktura, gdy zarabia**: lista albo tabela, gdy pomaga skanować, porównać lub wykonać krok. Inaczej tekst ciągły. Nie robię z każdego punktu „etykieta: opis" i nie pogrubiam wszystkiego — tak wygląda domyślny output modelu.
-- **Emoji** tylko, jeśli to naturalny głos właściciela albo kanału (z `glos`), nigdy jako ozdoba. W tekście formalnym zero.
+- **Emoji** tylko, jeśli to naturalny głos właściciela albo kanału (z `copywriter`), nigdy jako ozdoba. W tekście formalnym zero.
 - **Myślniki oszczędnie**: bez długiego myślnika (em dash) w widocznej treści. Najpierw sprawdzam, czy nie wystarczy kropka, przecinek albo dwukropek. Myślnik nie zastępuje interpunkcji.
 
 ## Jak piszę po ludzku

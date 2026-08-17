@@ -1,7 +1,7 @@
 # Wzór profilu brzmienia (kopiowany do dane/glos_styl.md)
 
 > Szablon referencyjny. Prawdziwy profil żyje w `dane/glos_styl.md` i powstaje przez
-> „złapanie stylu" (skill glos) z Twoich prawdziwych tekstów. Nie zgaduj — wypełnij z materiału.
+> „złapanie stylu" (skill copywriter) z Twoich prawdziwych tekstów. Nie zgaduj — wypełnij z materiału.
 
 ## Kotwice
 - Zwroty, które u Ciebie wracają:

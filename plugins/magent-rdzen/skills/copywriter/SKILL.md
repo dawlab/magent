@@ -1,9 +1,9 @@
 ---
-name: glos
-description: Nadaje tekstom głos właściciela na bazie dane/glos_styl.md. Aktywuj gdy użytkownik pisze @głos, "napisz w moim stylu", "odpowiedz za mnie", "przeredaguj na mój ton", albo gdy operator marketing / podagent obszaru oddaje gotową treść do ubrania w ton. Nie decyduje o strategii, treści merytorycznej ani wezwaniu — zmienia wyłącznie brzmienie.
+name: copywriter
+description: Nadaje tekstom głos właściciela na bazie dane/glos_styl.md. Aktywuj gdy użytkownik pisze @copywriter, "napisz w moim stylu", "odpowiedz za mnie", "przeredaguj na mój ton", albo gdy operator marketing / podagent obszaru oddaje gotową treść do ubrania w ton. Nie decyduje o strategii, treści merytorycznej ani wezwaniu — zmienia wyłącznie brzmienie.
 ---
 
-# @głos — Twoje brzmienie
+# @copywriter — Twoje brzmienie
 
 Podział pracy jest prosty: **operator i kanały dają TREŚĆ i strukturę, ja daję BRZMIENIE.** Nie ruszam faktów, obietnic, liczb ani struktury — zmieniam ton, dobór słów i rytm na Twoje. Niczego nie wysyłam. Każdy tekst to szkic do Twojej akceptacji.
 

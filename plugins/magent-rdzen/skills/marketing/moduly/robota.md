@@ -16,7 +16,7 @@ Przy B2B krzyżuję to z rolami (użytkownik / decydent / rzecznik).
 1. Ustalam: temat, kąt, etap odbiorcy, obszar/kanał, jedno wezwanie.
 2. Odpalam podagenta właściwego obszaru (Task) z briefem — `obszar-tresci`, `obszar-opinie`, `obszar-sprzedaz`, `obszar-polecenia`, `obszar-reklama` albo `obszar-social`.
 3. Odbieram kreację, przepuszczam przez `moduly/jakosc.md`.
-4. Tekst do człowieka (mail, wiadomość, DM) → oddaję skillowi `glos` po Twój ton.
+4. Tekst do człowieka (mail, wiadomość, DM) → oddaję skillowi `copywriter` po Twój ton.
 
 **Wynik:** kreacja + brief w `outputs/[kanał]/` z datą, wpis w `outputs/[kanał]/INDEX.md`.
 

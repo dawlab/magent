@@ -21,7 +21,7 @@ Jeden plik HTML, responsywny, w stylu marki:
 - **FAQ** (realne pytania klienta) — dołóż **FAQ schema** (JSON-LD), bo modele AI z niej wyciągają.
 - **Kontakt / CTA** powtórzone na dole.
 - Podstawy SEO/AEO: sensowny `<title>` i opis, nagłówki H1→H2, tekst atomowy (kluczowa rzecz w 1. zdaniu), mobilnie czytelne.
-Tekst do ludzi → przepuść przez `glos` po ton właściciela.
+Tekst do ludzi → przepuść przez `copywriter` po ton właściciela.
 
 ## 3. Zapisz
 `outputs/strona/[data]-[cel]/index.html` + krótkie `README.md` (co to, jak wystawić). Wpis w `outputs/strona/INDEX.md`.

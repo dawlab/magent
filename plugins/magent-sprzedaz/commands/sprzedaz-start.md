@@ -7,7 +7,7 @@ description: Włącza obszar Sprzedaż w MarketingAgent — rejestruje go i wyja
 Właściciel zainstalował plugin `magent-sprzedaz` i uruchamia go w module kursu.
 
 ## 1. Wyjaśnij krótko, co robi
-Sprzedaż łapie kontakt, dogrzewa i sprowadza klientów z powrotem: lead magnet + copy landingu, sekwencje maili i newsletter, wiadomości reaktywacyjne, skrypty DM. Oddaje gotowy tekst do wklejenia. **Nie wysyła.** Brzmienie nadaje `@głos`.
+Sprzedaż łapie kontakt, dogrzewa i sprowadza klientów z powrotem: lead magnet + copy landingu, sekwencje maili i newsletter, wiadomości reaktywacyjne, skrypty DM. Oddaje gotowy tekst do wklejenia. **Nie wysyła.** Brzmienie nadaje `@copywriter`.
 
 ## 2. Zarejestruj obszar
 Dopisz do `system/obszary-zainstalowane.md` (sekcja „## Obszary"), zastępując placeholder jeśli trzeba, i zaktualizuj datę na górze:

@@ -5,7 +5,7 @@ MarketingAgent pomaga solo-przedsiębiorcy zamienić marketing w powtarzalny dop
 ## Budowa etapami (ważne dla routingu)
 
 MarketingAgent jest instalowany **kawałkami**, jako pluginy z marketplace MarketingAgent — nie w całości. Klient dostaje je stopniowo, moduł kursu po module.
-- **Rdzeń** (`magent-rdzen`) — minimum po zakupie: skill `glos`, komenda `/nauka-firmy` i operator `marketing`. To jest zawsze.
+- **Rdzeń** (`magent-rdzen`) — minimum po zakupie: skill `copywriter`, komenda `/nauka-firmy` i operator `marketing`. To jest zawsze.
 - **Obszary** (`magent-tresci`, `magent-opinie`, `magent-sprzedaz`, `magent-polecenia`, `magent-reklama`, `magent-social`) — dokładane osobno, każdy jako plugin z własnym podagentem i (opcjonalnie) narzędziem.
 
 Co jest realnie zainstalowane i skonfigurowane, mówi **`system/obszary-zainstalowane.md`** — nie zakładaj z góry, że jakikolwiek obszar istnieje. Czego tam nie ma, tego nie oferuj jako gotowego: powiedz, że dokłada się to w module kursu. Dane klienta (`dane/`, `system/`, `outputs/`) mieszkają w jego katalogu, poza pluginami.
@@ -34,7 +34,7 @@ Co jest realnie zainstalowane i skonfigurowane, mówi **`system/obszary-zainstal
 | `/strategia` — co sprzedawać, w który segment wejść, czy pomysł się opłaca, czego zaniechać | skill **marketing** (moduł strategia) |
 | `/nauka-firmy` / „poznaj moją firmę" / puste `dane/` | komenda **/nauka-firmy** (krok rozbudowy) |
 | pisze `@marketing` (lub nadane imię operatora), albo prosi o marketing: plan, leady, kampania, treść, audyt, kanały | skill **marketing** |
-| pisze `@głos`, „napisz w moim stylu", „odpowiedz za mnie", „przeredaguj" | skill **glos** |
+| pisze `@copywriter`, „napisz w moim stylu", „odpowiedz za mnie", „przeredaguj" | skill **copywriter** |
 | pisze `@social`, „złóż post", „grafika do posta", „opublikuj/zaplanuj na [kanał]", „rozłóż to na social" | skill **marketing** → deleguje do **obszar-social** (jeśli zainstalowany; publikacja za bramą decyzji) |
 | komenda startowa obszaru Social: `/social-start` | włączenie i konfiguracja świeżo zainstalowanego obszaru Social |
 | `/sesja` | zmiana robocza: brief → praca → podsumowanie |

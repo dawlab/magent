@@ -2,7 +2,7 @@
   "name": "magent",
   "owner": { "name": "MarketingAgent" },
   "metadata": {
-    "description": "MarketingAgent — system marketingowy dla solo-przedsiębiorcy. Instalowany etapami: najpierw rdzeń (@głos, nauka firmy, operator), potem obszary dokładane w trakcie kursu.",
+    "description": "MarketingAgent — system marketingowy dla solo-przedsiębiorcy. Instalowany etapami: najpierw rdzeń (@copywriter, nauka firmy, operator), potem obszary dokładane w trakcie kursu.",
     "version": "0.1.0"
   },
   "plugins": [
@@ -10,7 +10,7 @@
       "name": "magent-rdzen",
       "source": "./plugins/magent-rdzen",
       "version": "0.1.0",
-      "description": "Minimum po zakupie: @głos, nauka firmy i operator marketingu (mózg pętli Namierz→Zrób→Zmierz). Bez obszarów — te dokładasz osobno w kolejnych modułach."
+      "description": "Minimum po zakupie: @copywriter, nauka firmy i operator marketingu (mózg pętli Namierz→Zrób→Zmierz). Bez obszarów — te dokładasz osobno w kolejnych modułach."
     },
     {
       "name": "magent-tresci",

@@ -11,4 +11,4 @@ Właściciel chce nauczyć mnie zasady na stałe — nie poprawiać w kółko te
 2. Pokaż podgląd wpisu, a po zgodzie dopisz do `system/korekty.md`: `- [dzisiejsza data] · [obszar] · reguła`. Nie nadpisuj istniejących reguł.
 3. Potwierdź, że od teraz stosuję ją przy każdej produkcji (wstrzykuję do briefu obszaru).
 
-Granica: to korekta merytoryczna/produkcyjna. Jeśli to korekta **brzmienia/tonu** — kieruję do `@głos` (`dane/glos_styl.md`). Nie edytuję modułów pluginu — utrwalam wyłącznie w `system/korekty.md`.
+Granica: to korekta merytoryczna/produkcyjna. Jeśli to korekta **brzmienia/tonu** — kieruję do `@copywriter` (`dane/glos_styl.md`). Nie edytuję modułów pluginu — utrwalam wyłącznie w `system/korekty.md`.

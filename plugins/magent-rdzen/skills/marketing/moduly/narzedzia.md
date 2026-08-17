@@ -23,7 +23,7 @@ Solo-przedsiębiorcę zatrzymuje wybór narzędzi i ich konfiguracja, nie brak o
 | Strona firmowa / landing | **agent generuje one-pager → Cloudflare Pages** | Carrd (tani), Framer | deploy → właściciel | niżej |
 | Wizytówka lokalna | **Google Business Profile** | Mapy Apple/Bing | działanie → brama | obszar Opinie |
 | Email: lista + sekwencje | **MailerLite** (darmowy plan) | Brevo, MailerSend | wysyłka → brama | obszar Sprzedaż `POLACZENIA.md` |
-| Email: pisanie i odpowiedzi | **agent drafuje w głosie → właściciel wysyła** | — | **draft ok; auto-wysyłka NIE** | skill `glos` + kolejka |
+| Email: pisanie i odpowiedzi | **agent drafuje w głosie → właściciel wysyła** | — | **draft ok; auto-wysyłka NIE** | skill `copywriter` + kolejka |
 | Reklama: dane o kampaniach | **Google Ads / Meta** | — | odczyt; zakładanie → właściciel | obszar Reklama `POLACZENIA.md` |
 
 ## Szczegóły dla narzędzi bez własnego obszaru
@@ -42,7 +42,7 @@ Zamiast wysyłać właściciela do drogiego kreatora, **agent generuje stronę**
 
 ### Email — pisanie i „odpowiedzi", bez łamania zasady
 - **Lista i sekwencje**: MailerLite (darmowy plan). Odczyt statystyk swobodnie; **wysyłka zawsze przez kolejkę decyzji**.
-- **„Automatyczne odpowiedzi"**: agent **pisze** odpowiedź w tonie właściciela (skill `glos`) na podstawie treści maila i wrzuca gotowca do kolejki. **Nie wysyła sam.** To jest cenne (oszczędza pisanie), a jednocześnie trzyma zasadę #1: nic nie wychodzi bez kliknięcia.
+- **„Automatyczne odpowiedzi"**: agent **pisze** odpowiedź w tonie właściciela (skill `copywriter`) na podstawie treści maila i wrzuca gotowca do kolejki. **Nie wysyła sam.** To jest cenne (oszczędza pisanie), a jednocześnie trzyma zasadę #1: nic nie wychodzi bez kliknięcia.
 
 ## Jak podłączać (wzorzec)
 Narzędzia z własnym obszarem → instrukcja w `POLACZENIA.md` danego pluginu. Narzędzia bez obszaru (Clarity, Cloudflare, hosting strony) → serwer/konektor MCP albo prosty tag/klucz; deklaracja w `.mcp.json` odpowiedniego pluginu, autoryzacja **read-only** tam, gdzie się da. Po podłączeniu zapisz status w `system/obszary-zainstalowane.md` (sekcja „Narzędzia": nazwa + odczyt/działanie + status).

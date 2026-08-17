@@ -7,7 +7,7 @@ description: Włącza obszar Treści w MarketingAgent — rejestruje go i wyjaś
 Właściciel właśnie zainstalował plugin `magent-tresci` i uruchamia go w module kursu. Twoje zadanie:
 
 ## 1. Wyjaśnij krótko, co ten obszar robi
-Treści produkuje treści organiczne — żeby kupujący Cię znaleźli i zobaczyli. Jeden temat przez wiele formatów (post, krótkie wideo, zajawka mailowa), plan treści, copy profilu Google / strony, szkice evergreenów. Oddaje gotową treść do wklejenia; **nie publikuje**. Brzmienie nadaje osobno `@głos`.
+Treści produkuje treści organiczne — żeby kupujący Cię znaleźli i zobaczyli. Jeden temat przez wiele formatów (post, krótkie wideo, zajawka mailowa), plan treści, copy profilu Google / strony, szkice evergreenów. Oddaje gotową treść do wklejenia; **nie publikuje**. Brzmienie nadaje osobno `@copywriter`.
 
 ## 2. Zarejestruj obszar w katalogu zdolności
 Dopisz do `system/obszary-zainstalowane.md`, w sekcji „## Obszary", wpis:

@@ -111,7 +111,7 @@ MarketingAgent zada kilka pytań: czym się zajmujesz, do kogo kierujesz ofertę
 Następnie sprawdź, czy trafił w Twój styl:
 
 ```
-@głos napisz krótkie powitanie do klienta w moim stylu
+@copywriter napisz krótkie powitanie do klienta w moim stylu
 ```
 
 Jeśli w którymkolwiek momencie nie wiesz, co zrobić dalej, wpisz:
@@ -134,7 +134,7 @@ Z MarketingAgentem rozmawiasz, pisząc. Masz trzy sposoby:
 
 **Wywołania zaczynające się od `@`.** Kierują zadanie do konkretnego pomocnika:
 - `@marketing` — planowanie, pomysły, produkcja materiałów
-- `@głos` — nadanie tekstowi Twojego tonu
+- `@copywriter` — nadanie tekstowi Twojego tonu
 - `@social` — przygotowanie postów (jeśli masz dodany obszar Social)
 
 Nie musisz pamiętać całej listy. `/start` zawsze podpowie, co jest teraz sensowne.
@@ -268,7 +268,7 @@ Każdy obszar działa również bez podłączonych narzędzi zewnętrznych — w
 | Wpisujesz | Efekt |
 |---|---|
 | `@marketing …` | Planowanie i produkcja materiałów |
-| `@głos …` | Przepisanie tekstu Twoim tonem |
+| `@copywriter …` | Przepisanie tekstu Twoim tonem |
 | `@social …` | Przygotowanie materiału na social media |
 
 Komendy instalujące i włączające poszczególne obszary znajdziesz w [punkcie 7](#7-obszary-i-komendy-instalacji).
@@ -318,7 +318,7 @@ Osobna uwaga o odpowiadaniu na maile: MarketingAgent przygotowuje odpowiedź w T
 
 Wynik to zawsze 3–5 poprawek uszeregowanych według wpływu na efekt, a nie pełna lista uwag.
 
-**`@głos`** przepisuje dowolny tekst tak, żeby brzmiał jak Ty. Nie zmienia treści ani argumentów — wyłącznie sposób wypowiedzi.
+**`@copywriter`** przepisuje dowolny tekst tak, żeby brzmiał jak Ty. Nie zmienia treści ani argumentów — wyłącznie sposób wypowiedzi.
 
 ---
 
@@ -339,7 +339,7 @@ Agent prowadzi te pliki samodzielnie — nie musisz ich edytować. Możesz do ni
 Praca z MarketingAgentem opiera się na powtarzalnym cyklu:
 
 1. **Ustal kierunek** — `/stan` albo `/ruch` wskazują, co przyniesie teraz największy efekt.
-2. **Wykonaj** — agent przygotowuje materiał. Teksty kierowane do klientów warto przepuścić przez `@głos`.
+2. **Wykonaj** — agent przygotowuje materiał. Teksty kierowane do klientów warto przepuścić przez `@copywriter`.
 3. **Sprawdź wynik** — `/sesja` zamyka porcję pracy podsumowaniem, `/checklista` ocenia konkretny materiał, `/audyt` pokazuje, co nie działa.
 
 Największą różnicę robi regularność. Dwa kanały prowadzone systematycznie dają więcej niż sześć prowadzonych zrywami. `/start` pokazuje liczbę dni pracy pod rząd — to prosty sposób na utrzymanie rytmu.
@@ -446,7 +446,7 @@ W oknie Claude Code, otwartym w folderze firmy:
 /plugin install magent-rdzen@magent
 /magent-setup       → uruchom Claude Code ponownie
 /nauka-firmy        → profil firmy
-@głos [test]        → sprawdzenie stylu
+@copywriter [test]        → sprawdzenie stylu
 /start              → następny krok
 ```
 

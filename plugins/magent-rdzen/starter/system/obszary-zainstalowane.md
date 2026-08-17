@@ -9,7 +9,7 @@
 Ostatnia aktualizacja: [—]
 
 ## Rdzeń
-- **magent-rdzen** — @głos, nauka firmy, operator marketingu. Zawsze obecny (to on czyta ten plik).
+- **magent-rdzen** — @copywriter, nauka firmy, operator marketingu. Zawsze obecny (to on czyta ten plik).
 
 ## Obszary
 <!-- Format wpisu:

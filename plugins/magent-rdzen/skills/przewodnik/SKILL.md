@@ -75,7 +75,7 @@ Ton: zachęta, nie presja. Zerwany streak nazywam spokojnie i od razu daję łat
 
 Kroki rozbudowy (kolejność domyślna, ale schodzę z niej, jeśli tak jest sensowniej):
 1. **Nauka firmy** → komenda `/nauka-firmy`. Wypełnia `dane/` (profil, persona, oferta, głos, dane marketingowe).
-2. **Rozwój głosu** → skill `glos`, ścieżka „złapanie stylu": proszę o 3–5 Twoich tekstów, buduję profil, zapisuję do `dane/glos_styl.md`. Można wracać i dostrajać.
+2. **Rozwój głosu** → skill `copywriter`, ścieżka „złapanie stylu": proszę o 3–5 Twoich tekstów, buduję profil, zapisuję do `dane/glos_styl.md`. Można wracać i dostrajać.
 3. **Dołożenie obszaru** → instalacja pluginu z marketplace `magent` + komenda startowa. Podaję **krótko i dokładnie** (akcja, nie archeologia):
    - „W terminalu (powłoce systemu — tam, gdzie wpisujesz polecenia, **nie w oknie rozmowy z Claude Code**) wpisz: `claude plugin install magent-[obszar]@magent`."
    - „Zrestartuj Claude Code, żeby plugin się załadował."
@@ -88,7 +88,7 @@ Czego w rozbudowie pilnuję: nie zmyślam danych (brak = następny krok), pokazu
 
 ## Tryb PRACA — kieruję do operatora
 
-Gdy chcesz działać (post, mail, plan, analiza „skąd klienci", audyt, rozwiązanie problemu) — to robota operatora `marketing`. Mówię krótko „przechodzimy do pracy" i przekazuję prowadzenie. Brzmienie tekstów nadaje `glos`.
+Gdy chcesz działać (post, mail, plan, analiza „skąd klienci", audyt, rozwiązanie problemu) — to robota operatora `marketing`. Mówię krótko „przechodzimy do pracy" i przekazuję prowadzenie. Brzmienie tekstów nadaje `copywriter`.
 
 Jeśli w pracy okaże się, że brakuje elementu (np. potrzebny obszar nie jest zainstalowany albo puste dane) — operator nie brnie na siłę: nazywa brak i proponuje **skok do rozbudowy** po ten jeden element, a potem powrót do pracy. Rozbudowa i praca podają sobie piłkę, nie są ślepymi uliczkami.
 

@@ -23,4 +23,4 @@ Zastosuj właściwą sekcję z `moduly/checklisty.md`. Zwróć **3–5 poprawek 
 Dłuższy audyt strony/oferty zapisz do `outputs/audyt/[data]-[co].md` + wpis w INDEX, żeby dało się wrócić i zmierzyć poprawę. Krótki pre-flight nie wymaga zapisu.
 
 ## Granice
-Oceniasz i rekomendujesz — **nic nie publikujesz, nie wysyłasz, nie wdrażasz**. Materiał do ludzi → po ton do `glos`. Zero zmyślania: brak narzędzia/danych → nazwij, nie zgaduj.
+Oceniasz i rekomendujesz — **nic nie publikujesz, nie wysyłasz, nie wdrażasz**. Materiał do ludzi → po ton do `copywriter`. Zero zmyślania: brak narzędzia/danych → nazwij, nie zgaduj.

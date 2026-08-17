@@ -4,18 +4,18 @@
     "name": "MarketingAgent"
   },
   "metadata": {
-    "description": "MarketingAgent — system marketingowy dla solo-przedsiębiorcy. Instalowany etapami: najpierw rdzeń (@głos, nauka firmy, operator), potem obszary dokładane w trakcie kursu.",
+    "description": "MarketingAgent — system marketingowy dla solo-przedsiębiorcy. Instalowany etapami: najpierw rdzeń (@copywriter, nauka firmy, operator), potem obszary dokładane w trakcie kursu.",
     "version": "0.1.0"
   },
   "plugins": [
     {
       "name": "magent-rdzen",
       "version": "0.1.0",
-      "description": "Minimum po zakupie: @głos, nauka firmy i operator marketingu (mózg pętli Namierz→Zrób→Zmierz). Bez obszarów — te dokładasz osobno w kolejnych modułach.",
+      "description": "Minimum po zakupie: @copywriter, nauka firmy i operator marketingu (mózg pętli Namierz→Zrób→Zmierz). Bez obszarów — te dokładasz osobno w kolejnych modułach.",
       "source": {
         "source": "archive",
         "url": "https://dawlab.github.io/magent/paczki/magent-rdzen-0.1.0.zip",
-        "sha256": "627512b23c05aea8daf936cbaa411e21e151568609ac0120cf1d58cb4790ce80"
+        "sha256": "3f408ebc4e10ca3b868877ed4ccbced22bd4bfb432f610aa69f538d0db9bc003"
       }
     },
     {
@@ -25,7 +25,7 @@
       "source": {
         "source": "archive",
         "url": "https://dawlab.github.io/magent/paczki/magent-tresci-0.1.0.zip",
-        "sha256": "cdd30819bffe855a97a3c2d060a2758223b5fd22254421280b067f5b8b699d1e"
+        "sha256": "b9922c98a8da2dcbdfb5fc77d31807d0a13bb3fec9c59c85ae12ce6850b46ead"
       }
     },
     {
@@ -35,7 +35,7 @@
       "source": {
         "source": "archive",
         "url": "https://dawlab.github.io/magent/paczki/magent-opinie-0.1.0.zip",
-        "sha256": "f60d5e9305d473f210a68bda73e13d2d5f3159246cf87942bc5aa04a5597ef74"
+        "sha256": "0ee31dec0b92fd45cd90f7bfb540a02fc10d9eefb4e4961408c3152132eccdf2"
       }
     },
     {
@@ -45,7 +45,7 @@
       "source": {
         "source": "archive",
         "url": "https://dawlab.github.io/magent/paczki/magent-sprzedaz-0.1.0.zip",
-        "sha256": "fe02884d391b954ae3fdbbb58b5ab6617526eb39f5e7a666f6a9b406b70fa54b"
+        "sha256": "9e246de1f85c9a7733b7f28945cd6a8856c61c98b62f532daed64f3fa032c986"
       }
     },
     {
@@ -55,7 +55,7 @@
       "source": {
         "source": "archive",
         "url": "https://dawlab.github.io/magent/paczki/magent-polecenia-0.1.0.zip",
-        "sha256": "6b283ed50a2345eb2652ba9543074e14b302e69e5591833a4b0650914eefb4d3"
+        "sha256": "e46116bbe2f40cf6fe17bea2b62c3363bfa475624db3a20611cf8122ce0c4911"
       }
     },
     {
@@ -65,7 +65,7 @@
       "source": {
         "source": "archive",
         "url": "https://dawlab.github.io/magent/paczki/magent-reklama-0.1.0.zip",
-        "sha256": "70b410f8860cfaa8e2597f0796282219297ac426cf5ae99b199c3bad256f9b35"
+        "sha256": "c58daa415367c6d7811f4e163f50a759b44d714fd820fa80b2d7ef151f8124e5"
       }
     },
     {
@@ -75,7 +75,7 @@
       "source": {
         "source": "archive",
         "url": "https://dawlab.github.io/magent/paczki/magent-social-0.1.0.zip",
-        "sha256": "52cbe9e4373e9de7dd3845757491b9dbc367a4f9feeac0973f3c41649cbc1bca"
+        "sha256": "d95d3a360b4e440559aecd91c4f3fa369688419ccc8de216713a767fb3a2534b"
       }
     }
   ]

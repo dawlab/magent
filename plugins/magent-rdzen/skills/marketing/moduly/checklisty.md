@@ -33,7 +33,7 @@ Wejście: konkretna treść przed wrzuceniem w świat (post, mail, wideo-skrypt,
 - **Dowód nie zmyślony** — liczby/wyniki tylko z plików albo z narzędzi. Brak → „nie mam tej informacji", nie wymyślaj.
 - **Format natywny** dla kanału (playbook w `obszar-tresci`/`obszar-social`), oszczędne formatowanie, zero maniery AI.
 - **Alt-text** (jeśli grafika) i **link we właściwym miejscu** (na wielu kanałach: pierwszy komentarz, nie treść).
-- **Ton** przeszedł przez `glos` (tekst do ludzi).
+- **Ton** przeszedł przez `copywriter` (tekst do ludzi).
 - **Zasady domu** z `system/korekty.md` zastosowane.
 
 Wynik: ✓ gotowe do kolejki, albo lista konkretnych poprawek. **Publikacji nie wykonujesz** — rzecz idzie do kolejki decyzji, właściciel klika.
@@ -59,7 +59,7 @@ Wejście: tekst strony oferty **albo** sekwencja maili (powitalna). Oceniam pod 
 - **Segmentacja**: inny przekaz dla nowych vs klientów.
 - Wysyłka: statystyki czytam swobodnie, **wysyłka zawsze przez kolejkę decyzji**.
 
-Wynik: **3–5 rzeczy do dodania/wycięcia** priorytetowo, z konkretem. Materiał do ludzi → po ton do `glos`.
+Wynik: **3–5 rzeczy do dodania/wycięcia** priorytetowo, z konkretem. Materiał do ludzi → po ton do `copywriter`.
 
 ---
 

@@ -7,7 +7,7 @@ description: Włącza obszar Social w MarketingAgent — rejestruje go, tworzy s
 Właściciel właśnie zainstalował plugin `magent-social` i uruchamia go w module kursu. Prowadź za rękę, jeden krok naraz. Twoje zadanie:
 
 ## 1. Wyjaśnij krótko, co ten obszar robi
-Social to **ręka dystrybucyjna**: bierze gotowy przekaz (z Treści albo od operatora) i składa z niego **kompletny post pod konkretny kanał** — tekst + grafikę w stylu Twojej marki + opcjonalny storyboard wideo — a potem przygotowuje go do publikacji przez zernio. **Nic nie publikuje samo.** Wszystko czeka na Twój klik w kolejce decyzji. Brzmienie tekstu nadaje osobno `@głos`.
+Social to **ręka dystrybucyjna**: bierze gotowy przekaz (z Treści albo od operatora) i składa z niego **kompletny post pod konkretny kanał** — tekst + grafikę w stylu Twojej marki + opcjonalny storyboard wideo — a potem przygotowuje go do publikacji przez zernio. **Nic nie publikuje samo.** Wszystko czeka na Twój klik w kolejce decyzji. Brzmienie tekstu nadaje osobno `@copywriter`.
 
 Powiedz wprost dwie rzeczy, które ten obszar zmienia:
 - **Grafiki za darmo**: agent robi grafikę jako szablon w stylu marki — nie potrzebujesz płatnego generatora.
